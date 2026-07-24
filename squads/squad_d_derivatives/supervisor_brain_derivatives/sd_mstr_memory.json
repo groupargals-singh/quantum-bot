@@ -4,12 +4,12 @@
   "total_sub_brains_active": 30000,
   "power_multiplier": 100.0,
   "accuracy_score": 100.0,
-  "self_correction_count": 3,
-  "total_promotions": 0,
+  "self_correction_count": 19,
+  "total_promotions": 34,
   "total_demotions": 0,
   "historical_days_trained": 365,
-  "data_points_processed": 24820,
+  "data_points_processed": 124100,
   "multi_api_status": "ONLINE (Yahoo + NSE + AlphaV)",
   "status": "ACTIVE_24_7_AUTONOMOUS",
-  "last_optimized": "2026-07-24 15:37:23.588888"
+  "last_optimized": "2026-07-24 17:41:58.300122"
 }
