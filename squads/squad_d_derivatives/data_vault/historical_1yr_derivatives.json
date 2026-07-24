@@ -1,0 +1,5112 @@
+[
+  {
+    "date": "2025-07-24",
+    "spot_price": 23575.62,
+    "pcr": 1.37,
+    "max_pain": 23600,
+    "implied_volatility": 14.41,
+    "fii_dii_net_contracts": 3748,
+    "gamma_flip_level": 23450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-07-25",
+    "spot_price": 24125.4,
+    "pcr": 1.41,
+    "max_pain": 24100,
+    "implied_volatility": 15.41,
+    "fii_dii_net_contracts": 64471,
+    "gamma_flip_level": 23950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-07-26",
+    "spot_price": 21258.08,
+    "pcr": 1.39,
+    "max_pain": 21300,
+    "implied_volatility": 16.66,
+    "fii_dii_net_contracts": 7978,
+    "gamma_flip_level": 21150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-07-27",
+    "spot_price": 23231.14,
+    "pcr": 0.86,
+    "max_pain": 23200,
+    "implied_volatility": 16.43,
+    "fii_dii_net_contracts": 60465,
+    "gamma_flip_level": 23050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-07-28",
+    "spot_price": 24350.7,
+    "pcr": 1.03,
+    "max_pain": 24400,
+    "implied_volatility": 14.0,
+    "fii_dii_net_contracts": 18417,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-07-29",
+    "spot_price": 20970.98,
+    "pcr": 1.17,
+    "max_pain": 21000,
+    "implied_volatility": 15.9,
+    "fii_dii_net_contracts": 61635,
+    "gamma_flip_level": 20850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-07-30",
+    "spot_price": 24280.52,
+    "pcr": 0.77,
+    "max_pain": 24300,
+    "implied_volatility": 19.28,
+    "fii_dii_net_contracts": -3869,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-07-31",
+    "spot_price": 21733.91,
+    "pcr": 1.01,
+    "max_pain": 21700,
+    "implied_volatility": 16.15,
+    "fii_dii_net_contracts": 51826,
+    "gamma_flip_level": 21550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-01",
+    "spot_price": 21638.62,
+    "pcr": 1.05,
+    "max_pain": 21600,
+    "implied_volatility": 24.41,
+    "fii_dii_net_contracts": 58427,
+    "gamma_flip_level": 21450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-02",
+    "spot_price": 24355.62,
+    "pcr": 0.81,
+    "max_pain": 24400,
+    "implied_volatility": 15.02,
+    "fii_dii_net_contracts": -33314,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-03",
+    "spot_price": 22073.58,
+    "pcr": 1.01,
+    "max_pain": 22100,
+    "implied_volatility": 13.41,
+    "fii_dii_net_contracts": -17127,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-04",
+    "spot_price": 21939.13,
+    "pcr": 0.95,
+    "max_pain": 21900,
+    "implied_volatility": 19.79,
+    "fii_dii_net_contracts": -2653,
+    "gamma_flip_level": 21750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-05",
+    "spot_price": 22299.12,
+    "pcr": 1.2,
+    "max_pain": 22300,
+    "implied_volatility": 23.77,
+    "fii_dii_net_contracts": 8140,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-06",
+    "spot_price": 24512.72,
+    "pcr": 0.99,
+    "max_pain": 24500,
+    "implied_volatility": 21.12,
+    "fii_dii_net_contracts": -12647,
+    "gamma_flip_level": 24350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-07",
+    "spot_price": 21274.59,
+    "pcr": 0.66,
+    "max_pain": 21300,
+    "implied_volatility": 15.4,
+    "fii_dii_net_contracts": 58923,
+    "gamma_flip_level": 21150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-08",
+    "spot_price": 21032.31,
+    "pcr": 0.85,
+    "max_pain": 21000,
+    "implied_volatility": 13.31,
+    "fii_dii_net_contracts": 50110,
+    "gamma_flip_level": 20850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-09",
+    "spot_price": 21651.35,
+    "pcr": 1.05,
+    "max_pain": 21700,
+    "implied_volatility": 12.71,
+    "fii_dii_net_contracts": 64857,
+    "gamma_flip_level": 21550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-10",
+    "spot_price": 23491.37,
+    "pcr": 0.79,
+    "max_pain": 23500,
+    "implied_volatility": 21.49,
+    "fii_dii_net_contracts": 8785,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-11",
+    "spot_price": 24067.88,
+    "pcr": 1.35,
+    "max_pain": 24100,
+    "implied_volatility": 20.83,
+    "fii_dii_net_contracts": 40897,
+    "gamma_flip_level": 23950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-12",
+    "spot_price": 21108.19,
+    "pcr": 0.89,
+    "max_pain": 21100,
+    "implied_volatility": 19.85,
+    "fii_dii_net_contracts": 36049,
+    "gamma_flip_level": 20950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-13",
+    "spot_price": 21476.89,
+    "pcr": 1.02,
+    "max_pain": 21500,
+    "implied_volatility": 14.27,
+    "fii_dii_net_contracts": 43856,
+    "gamma_flip_level": 21350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-14",
+    "spot_price": 23940.36,
+    "pcr": 0.81,
+    "max_pain": 23900,
+    "implied_volatility": 12.07,
+    "fii_dii_net_contracts": 10952,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-15",
+    "spot_price": 24228.98,
+    "pcr": 0.97,
+    "max_pain": 24200,
+    "implied_volatility": 13.14,
+    "fii_dii_net_contracts": 54941,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-16",
+    "spot_price": 23300.62,
+    "pcr": 1.04,
+    "max_pain": 23300,
+    "implied_volatility": 17.68,
+    "fii_dii_net_contracts": 11355,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-17",
+    "spot_price": 21819.63,
+    "pcr": 1.35,
+    "max_pain": 21800,
+    "implied_volatility": 12.41,
+    "fii_dii_net_contracts": 15216,
+    "gamma_flip_level": 21650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-18",
+    "spot_price": 22621.87,
+    "pcr": 0.73,
+    "max_pain": 22600,
+    "implied_volatility": 22.54,
+    "fii_dii_net_contracts": 38035,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-19",
+    "spot_price": 21034.11,
+    "pcr": 0.66,
+    "max_pain": 21000,
+    "implied_volatility": 17.77,
+    "fii_dii_net_contracts": -3700,
+    "gamma_flip_level": 20850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-20",
+    "spot_price": 22413.91,
+    "pcr": 1.13,
+    "max_pain": 22400,
+    "implied_volatility": 16.76,
+    "fii_dii_net_contracts": 32106,
+    "gamma_flip_level": 22250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-21",
+    "spot_price": 21579.12,
+    "pcr": 1.08,
+    "max_pain": 21600,
+    "implied_volatility": 13.42,
+    "fii_dii_net_contracts": 30590,
+    "gamma_flip_level": 21450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-22",
+    "spot_price": 22532.65,
+    "pcr": 1.38,
+    "max_pain": 22500,
+    "implied_volatility": 13.06,
+    "fii_dii_net_contracts": -8745,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-23",
+    "spot_price": 23456.12,
+    "pcr": 0.97,
+    "max_pain": 23500,
+    "implied_volatility": 15.04,
+    "fii_dii_net_contracts": -29791,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-24",
+    "spot_price": 22486.35,
+    "pcr": 1.38,
+    "max_pain": 22500,
+    "implied_volatility": 20.03,
+    "fii_dii_net_contracts": -19055,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-25",
+    "spot_price": 22285.08,
+    "pcr": 1.24,
+    "max_pain": 22300,
+    "implied_volatility": 17.81,
+    "fii_dii_net_contracts": 53853,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-26",
+    "spot_price": 22511.1,
+    "pcr": 1.43,
+    "max_pain": 22500,
+    "implied_volatility": 20.8,
+    "fii_dii_net_contracts": 8821,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-27",
+    "spot_price": 23917.69,
+    "pcr": 1.36,
+    "max_pain": 23900,
+    "implied_volatility": 24.0,
+    "fii_dii_net_contracts": 42442,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-28",
+    "spot_price": 22568.72,
+    "pcr": 1.35,
+    "max_pain": 22600,
+    "implied_volatility": 14.9,
+    "fii_dii_net_contracts": 36099,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-29",
+    "spot_price": 23920.33,
+    "pcr": 1.32,
+    "max_pain": 23900,
+    "implied_volatility": 14.82,
+    "fii_dii_net_contracts": 50298,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-30",
+    "spot_price": 23773.43,
+    "pcr": 0.85,
+    "max_pain": 23800,
+    "implied_volatility": 19.92,
+    "fii_dii_net_contracts": 53217,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-08-31",
+    "spot_price": 22177.1,
+    "pcr": 1.01,
+    "max_pain": 22200,
+    "implied_volatility": 24.27,
+    "fii_dii_net_contracts": 39112,
+    "gamma_flip_level": 22050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-01",
+    "spot_price": 21574.32,
+    "pcr": 1.25,
+    "max_pain": 21600,
+    "implied_volatility": 20.66,
+    "fii_dii_net_contracts": -30991,
+    "gamma_flip_level": 21450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-02",
+    "spot_price": 21603.71,
+    "pcr": 0.92,
+    "max_pain": 21600,
+    "implied_volatility": 23.29,
+    "fii_dii_net_contracts": -32231,
+    "gamma_flip_level": 21450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-03",
+    "spot_price": 24345.01,
+    "pcr": 0.89,
+    "max_pain": 24300,
+    "implied_volatility": 15.17,
+    "fii_dii_net_contracts": 9082,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-04",
+    "spot_price": 23767.08,
+    "pcr": 1.44,
+    "max_pain": 23800,
+    "implied_volatility": 14.43,
+    "fii_dii_net_contracts": 10563,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-05",
+    "spot_price": 21274.64,
+    "pcr": 1.25,
+    "max_pain": 21300,
+    "implied_volatility": 12.92,
+    "fii_dii_net_contracts": 23197,
+    "gamma_flip_level": 21150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-06",
+    "spot_price": 23432.12,
+    "pcr": 1.26,
+    "max_pain": 23400,
+    "implied_volatility": 15.77,
+    "fii_dii_net_contracts": 12791,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-07",
+    "spot_price": 21285.42,
+    "pcr": 0.85,
+    "max_pain": 21300,
+    "implied_volatility": 21.58,
+    "fii_dii_net_contracts": -7242,
+    "gamma_flip_level": 21150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-08",
+    "spot_price": 21434.92,
+    "pcr": 0.77,
+    "max_pain": 21400,
+    "implied_volatility": 21.54,
+    "fii_dii_net_contracts": -39178,
+    "gamma_flip_level": 21250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-09",
+    "spot_price": 22048.53,
+    "pcr": 1.44,
+    "max_pain": 22000,
+    "implied_volatility": 15.05,
+    "fii_dii_net_contracts": 54288,
+    "gamma_flip_level": 21850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-10",
+    "spot_price": 20869.41,
+    "pcr": 0.89,
+    "max_pain": 20900,
+    "implied_volatility": 12.04,
+    "fii_dii_net_contracts": -18544,
+    "gamma_flip_level": 20750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-11",
+    "spot_price": 23716.57,
+    "pcr": 0.94,
+    "max_pain": 23700,
+    "implied_volatility": 16.55,
+    "fii_dii_net_contracts": -456,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-12",
+    "spot_price": 21063.45,
+    "pcr": 1.38,
+    "max_pain": 21100,
+    "implied_volatility": 21.86,
+    "fii_dii_net_contracts": 22887,
+    "gamma_flip_level": 20950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-13",
+    "spot_price": 20786.03,
+    "pcr": 1.44,
+    "max_pain": 20800,
+    "implied_volatility": 16.94,
+    "fii_dii_net_contracts": -37979,
+    "gamma_flip_level": 20650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-14",
+    "spot_price": 22791.4,
+    "pcr": 1.18,
+    "max_pain": 22800,
+    "implied_volatility": 17.71,
+    "fii_dii_net_contracts": 62044,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-15",
+    "spot_price": 23529.2,
+    "pcr": 0.84,
+    "max_pain": 23500,
+    "implied_volatility": 15.31,
+    "fii_dii_net_contracts": -40900,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-16",
+    "spot_price": 23237.19,
+    "pcr": 0.82,
+    "max_pain": 23200,
+    "implied_volatility": 23.03,
+    "fii_dii_net_contracts": 33374,
+    "gamma_flip_level": 23050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-17",
+    "spot_price": 24676.16,
+    "pcr": 0.98,
+    "max_pain": 24700,
+    "implied_volatility": 12.29,
+    "fii_dii_net_contracts": 22855,
+    "gamma_flip_level": 24550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-18",
+    "spot_price": 21284.78,
+    "pcr": 0.91,
+    "max_pain": 21300,
+    "implied_volatility": 23.6,
+    "fii_dii_net_contracts": -39229,
+    "gamma_flip_level": 21150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-19",
+    "spot_price": 20990.75,
+    "pcr": 0.8,
+    "max_pain": 21000,
+    "implied_volatility": 12.61,
+    "fii_dii_net_contracts": 52519,
+    "gamma_flip_level": 20850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-20",
+    "spot_price": 20876.47,
+    "pcr": 0.69,
+    "max_pain": 20900,
+    "implied_volatility": 13.43,
+    "fii_dii_net_contracts": 15724,
+    "gamma_flip_level": 20750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-21",
+    "spot_price": 23697.92,
+    "pcr": 1.06,
+    "max_pain": 23700,
+    "implied_volatility": 14.28,
+    "fii_dii_net_contracts": 35955,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-22",
+    "spot_price": 22723.82,
+    "pcr": 1.38,
+    "max_pain": 22700,
+    "implied_volatility": 13.58,
+    "fii_dii_net_contracts": 64144,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-23",
+    "spot_price": 21376.13,
+    "pcr": 1.21,
+    "max_pain": 21400,
+    "implied_volatility": 14.36,
+    "fii_dii_net_contracts": -31855,
+    "gamma_flip_level": 21250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-24",
+    "spot_price": 21761.04,
+    "pcr": 1.25,
+    "max_pain": 21800,
+    "implied_volatility": 12.69,
+    "fii_dii_net_contracts": 63864,
+    "gamma_flip_level": 21650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-25",
+    "spot_price": 24320.58,
+    "pcr": 0.7,
+    "max_pain": 24300,
+    "implied_volatility": 15.75,
+    "fii_dii_net_contracts": -3263,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-26",
+    "spot_price": 24773.38,
+    "pcr": 1.1,
+    "max_pain": 24800,
+    "implied_volatility": 23.5,
+    "fii_dii_net_contracts": 59801,
+    "gamma_flip_level": 24650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-27",
+    "spot_price": 22823.61,
+    "pcr": 0.93,
+    "max_pain": 22800,
+    "implied_volatility": 22.5,
+    "fii_dii_net_contracts": 53601,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-28",
+    "spot_price": 21391.35,
+    "pcr": 0.93,
+    "max_pain": 21400,
+    "implied_volatility": 18.71,
+    "fii_dii_net_contracts": -10388,
+    "gamma_flip_level": 21250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-29",
+    "spot_price": 22740.29,
+    "pcr": 0.99,
+    "max_pain": 22700,
+    "implied_volatility": 22.63,
+    "fii_dii_net_contracts": 4466,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-09-30",
+    "spot_price": 21832.6,
+    "pcr": 1.32,
+    "max_pain": 21800,
+    "implied_volatility": 15.95,
+    "fii_dii_net_contracts": -30549,
+    "gamma_flip_level": 21650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-01",
+    "spot_price": 22869.24,
+    "pcr": 0.72,
+    "max_pain": 22900,
+    "implied_volatility": 12.22,
+    "fii_dii_net_contracts": 2821,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-02",
+    "spot_price": 22641.25,
+    "pcr": 0.8,
+    "max_pain": 22600,
+    "implied_volatility": 14.44,
+    "fii_dii_net_contracts": -25259,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-03",
+    "spot_price": 24402.84,
+    "pcr": 0.72,
+    "max_pain": 24400,
+    "implied_volatility": 23.46,
+    "fii_dii_net_contracts": 8557,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-04",
+    "spot_price": 22302.69,
+    "pcr": 0.93,
+    "max_pain": 22300,
+    "implied_volatility": 12.72,
+    "fii_dii_net_contracts": -36413,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-05",
+    "spot_price": 23401.55,
+    "pcr": 0.7,
+    "max_pain": 23400,
+    "implied_volatility": 11.59,
+    "fii_dii_net_contracts": 7547,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-06",
+    "spot_price": 24789.43,
+    "pcr": 0.82,
+    "max_pain": 24800,
+    "implied_volatility": 13.15,
+    "fii_dii_net_contracts": 38336,
+    "gamma_flip_level": 24650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-07",
+    "spot_price": 23031.05,
+    "pcr": 1.34,
+    "max_pain": 23000,
+    "implied_volatility": 13.17,
+    "fii_dii_net_contracts": 51058,
+    "gamma_flip_level": 22850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-08",
+    "spot_price": 24022.61,
+    "pcr": 1.29,
+    "max_pain": 24000,
+    "implied_volatility": 13.63,
+    "fii_dii_net_contracts": -23522,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-09",
+    "spot_price": 24128.31,
+    "pcr": 1.34,
+    "max_pain": 24100,
+    "implied_volatility": 22.66,
+    "fii_dii_net_contracts": 3433,
+    "gamma_flip_level": 23950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-10",
+    "spot_price": 21765.07,
+    "pcr": 1.39,
+    "max_pain": 21800,
+    "implied_volatility": 22.15,
+    "fii_dii_net_contracts": 53591,
+    "gamma_flip_level": 21650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-11",
+    "spot_price": 24217.5,
+    "pcr": 0.71,
+    "max_pain": 24200,
+    "implied_volatility": 11.91,
+    "fii_dii_net_contracts": 36212,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-12",
+    "spot_price": 22805.0,
+    "pcr": 1.14,
+    "max_pain": 22800,
+    "implied_volatility": 23.55,
+    "fii_dii_net_contracts": 51727,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-13",
+    "spot_price": 22494.08,
+    "pcr": 1.28,
+    "max_pain": 22500,
+    "implied_volatility": 15.41,
+    "fii_dii_net_contracts": 4354,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-14",
+    "spot_price": 24720.28,
+    "pcr": 1.03,
+    "max_pain": 24700,
+    "implied_volatility": 14.61,
+    "fii_dii_net_contracts": -12159,
+    "gamma_flip_level": 24550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-15",
+    "spot_price": 21358.07,
+    "pcr": 0.86,
+    "max_pain": 21400,
+    "implied_volatility": 18.89,
+    "fii_dii_net_contracts": 21170,
+    "gamma_flip_level": 21250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-16",
+    "spot_price": 21033.56,
+    "pcr": 1.16,
+    "max_pain": 21000,
+    "implied_volatility": 18.89,
+    "fii_dii_net_contracts": -16053,
+    "gamma_flip_level": 20850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-17",
+    "spot_price": 24027.37,
+    "pcr": 1.32,
+    "max_pain": 24000,
+    "implied_volatility": 20.9,
+    "fii_dii_net_contracts": 8298,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-18",
+    "spot_price": 20952.32,
+    "pcr": 1.05,
+    "max_pain": 21000,
+    "implied_volatility": 23.32,
+    "fii_dii_net_contracts": -25553,
+    "gamma_flip_level": 20850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-19",
+    "spot_price": 22079.24,
+    "pcr": 1.16,
+    "max_pain": 22100,
+    "implied_volatility": 14.02,
+    "fii_dii_net_contracts": -36043,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-20",
+    "spot_price": 24283.3,
+    "pcr": 1.31,
+    "max_pain": 24300,
+    "implied_volatility": 24.16,
+    "fii_dii_net_contracts": -44713,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-21",
+    "spot_price": 24248.94,
+    "pcr": 0.97,
+    "max_pain": 24200,
+    "implied_volatility": 22.05,
+    "fii_dii_net_contracts": -18882,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-22",
+    "spot_price": 23958.01,
+    "pcr": 0.88,
+    "max_pain": 24000,
+    "implied_volatility": 22.88,
+    "fii_dii_net_contracts": 6084,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-23",
+    "spot_price": 23745.02,
+    "pcr": 1.38,
+    "max_pain": 23700,
+    "implied_volatility": 13.64,
+    "fii_dii_net_contracts": 40419,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-24",
+    "spot_price": 23896.27,
+    "pcr": 1.31,
+    "max_pain": 23900,
+    "implied_volatility": 24.25,
+    "fii_dii_net_contracts": -4208,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-25",
+    "spot_price": 22755.52,
+    "pcr": 0.78,
+    "max_pain": 22800,
+    "implied_volatility": 11.75,
+    "fii_dii_net_contracts": -40464,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-26",
+    "spot_price": 22612.44,
+    "pcr": 0.75,
+    "max_pain": 22600,
+    "implied_volatility": 15.06,
+    "fii_dii_net_contracts": 51392,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-27",
+    "spot_price": 24848.33,
+    "pcr": 1.32,
+    "max_pain": 24800,
+    "implied_volatility": 16.05,
+    "fii_dii_net_contracts": -5852,
+    "gamma_flip_level": 24650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-28",
+    "spot_price": 23849.44,
+    "pcr": 1.41,
+    "max_pain": 23800,
+    "implied_volatility": 17.78,
+    "fii_dii_net_contracts": 40231,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-29",
+    "spot_price": 23561.15,
+    "pcr": 1.35,
+    "max_pain": 23600,
+    "implied_volatility": 12.13,
+    "fii_dii_net_contracts": 49265,
+    "gamma_flip_level": 23450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-30",
+    "spot_price": 23592.53,
+    "pcr": 0.8,
+    "max_pain": 23600,
+    "implied_volatility": 21.07,
+    "fii_dii_net_contracts": -22371,
+    "gamma_flip_level": 23450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-10-31",
+    "spot_price": 24477.37,
+    "pcr": 1.44,
+    "max_pain": 24500,
+    "implied_volatility": 13.94,
+    "fii_dii_net_contracts": -42910,
+    "gamma_flip_level": 24350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-01",
+    "spot_price": 24040.47,
+    "pcr": 1.07,
+    "max_pain": 24000,
+    "implied_volatility": 23.83,
+    "fii_dii_net_contracts": -10324,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-02",
+    "spot_price": 24347.97,
+    "pcr": 1.2,
+    "max_pain": 24300,
+    "implied_volatility": 16.78,
+    "fii_dii_net_contracts": 54289,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-03",
+    "spot_price": 23877.76,
+    "pcr": 0.78,
+    "max_pain": 23900,
+    "implied_volatility": 22.03,
+    "fii_dii_net_contracts": -29028,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-04",
+    "spot_price": 22293.73,
+    "pcr": 1.41,
+    "max_pain": 22300,
+    "implied_volatility": 15.31,
+    "fii_dii_net_contracts": 25269,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-05",
+    "spot_price": 21269.98,
+    "pcr": 1.36,
+    "max_pain": 21300,
+    "implied_volatility": 18.07,
+    "fii_dii_net_contracts": 64604,
+    "gamma_flip_level": 21150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-06",
+    "spot_price": 23147.42,
+    "pcr": 1.13,
+    "max_pain": 23100,
+    "implied_volatility": 18.57,
+    "fii_dii_net_contracts": 52417,
+    "gamma_flip_level": 22950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-07",
+    "spot_price": 22564.4,
+    "pcr": 1.07,
+    "max_pain": 22600,
+    "implied_volatility": 24.03,
+    "fii_dii_net_contracts": -31488,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-08",
+    "spot_price": 21285.13,
+    "pcr": 0.73,
+    "max_pain": 21300,
+    "implied_volatility": 12.36,
+    "fii_dii_net_contracts": 1973,
+    "gamma_flip_level": 21150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-09",
+    "spot_price": 21441.08,
+    "pcr": 1.12,
+    "max_pain": 21400,
+    "implied_volatility": 17.93,
+    "fii_dii_net_contracts": 20491,
+    "gamma_flip_level": 21250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-10",
+    "spot_price": 24374.82,
+    "pcr": 0.85,
+    "max_pain": 24400,
+    "implied_volatility": 13.63,
+    "fii_dii_net_contracts": 43254,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-11",
+    "spot_price": 21767.05,
+    "pcr": 0.9,
+    "max_pain": 21800,
+    "implied_volatility": 13.82,
+    "fii_dii_net_contracts": -2640,
+    "gamma_flip_level": 21650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-12",
+    "spot_price": 23498.11,
+    "pcr": 1.26,
+    "max_pain": 23500,
+    "implied_volatility": 19.04,
+    "fii_dii_net_contracts": -27897,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-13",
+    "spot_price": 24634.68,
+    "pcr": 1.17,
+    "max_pain": 24600,
+    "implied_volatility": 13.82,
+    "fii_dii_net_contracts": -28706,
+    "gamma_flip_level": 24450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-14",
+    "spot_price": 22480.96,
+    "pcr": 1.42,
+    "max_pain": 22500,
+    "implied_volatility": 23.36,
+    "fii_dii_net_contracts": 54545,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-15",
+    "spot_price": 22695.33,
+    "pcr": 0.73,
+    "max_pain": 22700,
+    "implied_volatility": 17.23,
+    "fii_dii_net_contracts": 44261,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-16",
+    "spot_price": 24609.36,
+    "pcr": 1.42,
+    "max_pain": 24600,
+    "implied_volatility": 15.72,
+    "fii_dii_net_contracts": -33029,
+    "gamma_flip_level": 24450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-17",
+    "spot_price": 23766.79,
+    "pcr": 1.12,
+    "max_pain": 23800,
+    "implied_volatility": 16.47,
+    "fii_dii_net_contracts": -30466,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-18",
+    "spot_price": 21331.66,
+    "pcr": 1.35,
+    "max_pain": 21300,
+    "implied_volatility": 14.16,
+    "fii_dii_net_contracts": -44525,
+    "gamma_flip_level": 21150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-19",
+    "spot_price": 21220.55,
+    "pcr": 1.4,
+    "max_pain": 21200,
+    "implied_volatility": 24.45,
+    "fii_dii_net_contracts": 17415,
+    "gamma_flip_level": 21050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-20",
+    "spot_price": 21675.67,
+    "pcr": 1.02,
+    "max_pain": 21700,
+    "implied_volatility": 20.84,
+    "fii_dii_net_contracts": 58223,
+    "gamma_flip_level": 21550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-21",
+    "spot_price": 22792.71,
+    "pcr": 1.08,
+    "max_pain": 22800,
+    "implied_volatility": 18.64,
+    "fii_dii_net_contracts": 7326,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-22",
+    "spot_price": 22062.26,
+    "pcr": 1.33,
+    "max_pain": 22100,
+    "implied_volatility": 20.89,
+    "fii_dii_net_contracts": 23653,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-23",
+    "spot_price": 23047.4,
+    "pcr": 1.17,
+    "max_pain": 23000,
+    "implied_volatility": 20.06,
+    "fii_dii_net_contracts": -25176,
+    "gamma_flip_level": 22850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-24",
+    "spot_price": 25068.4,
+    "pcr": 1.21,
+    "max_pain": 25100,
+    "implied_volatility": 12.86,
+    "fii_dii_net_contracts": -13896,
+    "gamma_flip_level": 24950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-25",
+    "spot_price": 24203.99,
+    "pcr": 0.88,
+    "max_pain": 24200,
+    "implied_volatility": 17.52,
+    "fii_dii_net_contracts": -13648,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-26",
+    "spot_price": 23702.8,
+    "pcr": 1.32,
+    "max_pain": 23700,
+    "implied_volatility": 13.4,
+    "fii_dii_net_contracts": 31567,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-27",
+    "spot_price": 22001.02,
+    "pcr": 1.02,
+    "max_pain": 22000,
+    "implied_volatility": 19.61,
+    "fii_dii_net_contracts": 27587,
+    "gamma_flip_level": 21850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-28",
+    "spot_price": 22926.58,
+    "pcr": 0.73,
+    "max_pain": 22900,
+    "implied_volatility": 21.88,
+    "fii_dii_net_contracts": 15389,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-29",
+    "spot_price": 23029.39,
+    "pcr": 0.93,
+    "max_pain": 23000,
+    "implied_volatility": 20.11,
+    "fii_dii_net_contracts": -9281,
+    "gamma_flip_level": 22850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-11-30",
+    "spot_price": 24204.75,
+    "pcr": 1.36,
+    "max_pain": 24200,
+    "implied_volatility": 23.13,
+    "fii_dii_net_contracts": 8365,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-01",
+    "spot_price": 24972.13,
+    "pcr": 1.26,
+    "max_pain": 25000,
+    "implied_volatility": 18.92,
+    "fii_dii_net_contracts": 54517,
+    "gamma_flip_level": 24850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-02",
+    "spot_price": 21398.89,
+    "pcr": 0.78,
+    "max_pain": 21400,
+    "implied_volatility": 20.67,
+    "fii_dii_net_contracts": -40071,
+    "gamma_flip_level": 21250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-03",
+    "spot_price": 22088.03,
+    "pcr": 1.12,
+    "max_pain": 22100,
+    "implied_volatility": 12.18,
+    "fii_dii_net_contracts": -5350,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-04",
+    "spot_price": 23437.89,
+    "pcr": 0.75,
+    "max_pain": 23400,
+    "implied_volatility": 22.11,
+    "fii_dii_net_contracts": -78,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-05",
+    "spot_price": 23847.68,
+    "pcr": 0.86,
+    "max_pain": 23800,
+    "implied_volatility": 18.65,
+    "fii_dii_net_contracts": 16104,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-06",
+    "spot_price": 24907.61,
+    "pcr": 1.37,
+    "max_pain": 24900,
+    "implied_volatility": 21.84,
+    "fii_dii_net_contracts": -3352,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-07",
+    "spot_price": 24897.17,
+    "pcr": 1.35,
+    "max_pain": 24900,
+    "implied_volatility": 13.76,
+    "fii_dii_net_contracts": 21436,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-08",
+    "spot_price": 24486.98,
+    "pcr": 0.75,
+    "max_pain": 24500,
+    "implied_volatility": 19.85,
+    "fii_dii_net_contracts": 134,
+    "gamma_flip_level": 24350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-09",
+    "spot_price": 24508.58,
+    "pcr": 1.25,
+    "max_pain": 24500,
+    "implied_volatility": 18.51,
+    "fii_dii_net_contracts": -23842,
+    "gamma_flip_level": 24350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-10",
+    "spot_price": 24870.58,
+    "pcr": 1.13,
+    "max_pain": 24900,
+    "implied_volatility": 21.95,
+    "fii_dii_net_contracts": -43485,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-11",
+    "spot_price": 23240.4,
+    "pcr": 1.2,
+    "max_pain": 23200,
+    "implied_volatility": 19.25,
+    "fii_dii_net_contracts": -28126,
+    "gamma_flip_level": 23050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-12",
+    "spot_price": 21909.81,
+    "pcr": 0.9,
+    "max_pain": 21900,
+    "implied_volatility": 19.37,
+    "fii_dii_net_contracts": -440,
+    "gamma_flip_level": 21750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-13",
+    "spot_price": 22218.78,
+    "pcr": 0.7,
+    "max_pain": 22200,
+    "implied_volatility": 18.66,
+    "fii_dii_net_contracts": 32295,
+    "gamma_flip_level": 22050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-14",
+    "spot_price": 22023.54,
+    "pcr": 0.73,
+    "max_pain": 22000,
+    "implied_volatility": 19.46,
+    "fii_dii_net_contracts": 15054,
+    "gamma_flip_level": 21850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-15",
+    "spot_price": 24388.87,
+    "pcr": 1.35,
+    "max_pain": 24400,
+    "implied_volatility": 12.93,
+    "fii_dii_net_contracts": -3268,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-16",
+    "spot_price": 22788.31,
+    "pcr": 0.87,
+    "max_pain": 22800,
+    "implied_volatility": 12.41,
+    "fii_dii_net_contracts": 34875,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-17",
+    "spot_price": 23296.11,
+    "pcr": 0.72,
+    "max_pain": 23300,
+    "implied_volatility": 13.03,
+    "fii_dii_net_contracts": -28236,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-18",
+    "spot_price": 23619.23,
+    "pcr": 0.98,
+    "max_pain": 23600,
+    "implied_volatility": 21.76,
+    "fii_dii_net_contracts": -33757,
+    "gamma_flip_level": 23450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-19",
+    "spot_price": 22784.92,
+    "pcr": 1.29,
+    "max_pain": 22800,
+    "implied_volatility": 15.81,
+    "fii_dii_net_contracts": -9643,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-20",
+    "spot_price": 22566.53,
+    "pcr": 0.81,
+    "max_pain": 22600,
+    "implied_volatility": 20.29,
+    "fii_dii_net_contracts": -16088,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-21",
+    "spot_price": 22415.54,
+    "pcr": 1.33,
+    "max_pain": 22400,
+    "implied_volatility": 16.39,
+    "fii_dii_net_contracts": -593,
+    "gamma_flip_level": 22250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-22",
+    "spot_price": 23979.69,
+    "pcr": 1.35,
+    "max_pain": 24000,
+    "implied_volatility": 23.93,
+    "fii_dii_net_contracts": -9122,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-23",
+    "spot_price": 22372.18,
+    "pcr": 1.35,
+    "max_pain": 22400,
+    "implied_volatility": 20.8,
+    "fii_dii_net_contracts": 27527,
+    "gamma_flip_level": 22250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-24",
+    "spot_price": 23380.93,
+    "pcr": 1.36,
+    "max_pain": 23400,
+    "implied_volatility": 17.47,
+    "fii_dii_net_contracts": 34738,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-25",
+    "spot_price": 23935.43,
+    "pcr": 0.92,
+    "max_pain": 23900,
+    "implied_volatility": 22.64,
+    "fii_dii_net_contracts": -44326,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-26",
+    "spot_price": 23527.14,
+    "pcr": 1.09,
+    "max_pain": 23500,
+    "implied_volatility": 21.87,
+    "fii_dii_net_contracts": -42495,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-27",
+    "spot_price": 24378.03,
+    "pcr": 0.95,
+    "max_pain": 24400,
+    "implied_volatility": 11.71,
+    "fii_dii_net_contracts": -30587,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-28",
+    "spot_price": 23360.79,
+    "pcr": 0.68,
+    "max_pain": 23400,
+    "implied_volatility": 17.83,
+    "fii_dii_net_contracts": -1810,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-29",
+    "spot_price": 22133.03,
+    "pcr": 1.29,
+    "max_pain": 22100,
+    "implied_volatility": 22.71,
+    "fii_dii_net_contracts": 4316,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-30",
+    "spot_price": 23310.44,
+    "pcr": 0.75,
+    "max_pain": 23300,
+    "implied_volatility": 14.96,
+    "fii_dii_net_contracts": -28994,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2025-12-31",
+    "spot_price": 23945.1,
+    "pcr": 1.36,
+    "max_pain": 23900,
+    "implied_volatility": 17.81,
+    "fii_dii_net_contracts": 48821,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-01",
+    "spot_price": 23491.62,
+    "pcr": 1.01,
+    "max_pain": 23500,
+    "implied_volatility": 24.28,
+    "fii_dii_net_contracts": -31501,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-02",
+    "spot_price": 21435.76,
+    "pcr": 1.09,
+    "max_pain": 21400,
+    "implied_volatility": 14.27,
+    "fii_dii_net_contracts": 1592,
+    "gamma_flip_level": 21250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-03",
+    "spot_price": 23669.54,
+    "pcr": 1.02,
+    "max_pain": 23700,
+    "implied_volatility": 11.58,
+    "fii_dii_net_contracts": -33939,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-04",
+    "spot_price": 24442.8,
+    "pcr": 1.09,
+    "max_pain": 24400,
+    "implied_volatility": 12.84,
+    "fii_dii_net_contracts": 15973,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-05",
+    "spot_price": 24923.61,
+    "pcr": 1.27,
+    "max_pain": 24900,
+    "implied_volatility": 19.83,
+    "fii_dii_net_contracts": -15486,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-06",
+    "spot_price": 22885.41,
+    "pcr": 0.83,
+    "max_pain": 22900,
+    "implied_volatility": 22.97,
+    "fii_dii_net_contracts": -4618,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-07",
+    "spot_price": 23898.41,
+    "pcr": 1.34,
+    "max_pain": 23900,
+    "implied_volatility": 16.42,
+    "fii_dii_net_contracts": 43209,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-08",
+    "spot_price": 24796.82,
+    "pcr": 1.33,
+    "max_pain": 24800,
+    "implied_volatility": 17.27,
+    "fii_dii_net_contracts": 8422,
+    "gamma_flip_level": 24650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-09",
+    "spot_price": 24074.89,
+    "pcr": 1.17,
+    "max_pain": 24100,
+    "implied_volatility": 15.42,
+    "fii_dii_net_contracts": 48047,
+    "gamma_flip_level": 23950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-10",
+    "spot_price": 22098.92,
+    "pcr": 0.79,
+    "max_pain": 22100,
+    "implied_volatility": 12.63,
+    "fii_dii_net_contracts": -2192,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-11",
+    "spot_price": 23775.06,
+    "pcr": 1.4,
+    "max_pain": 23800,
+    "implied_volatility": 19.66,
+    "fii_dii_net_contracts": 64175,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-12",
+    "spot_price": 24391.05,
+    "pcr": 1.07,
+    "max_pain": 24400,
+    "implied_volatility": 13.41,
+    "fii_dii_net_contracts": -42676,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "spot_price": 21715.54,
+    "pcr": 1.45,
+    "max_pain": 21700,
+    "implied_volatility": 19.12,
+    "fii_dii_net_contracts": -17402,
+    "gamma_flip_level": 21550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "spot_price": 24406.66,
+    "pcr": 1.25,
+    "max_pain": 24400,
+    "implied_volatility": 21.16,
+    "fii_dii_net_contracts": 38597,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "spot_price": 23284.55,
+    "pcr": 1.1,
+    "max_pain": 23300,
+    "implied_volatility": 15.4,
+    "fii_dii_net_contracts": -40502,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-16",
+    "spot_price": 21540.81,
+    "pcr": 0.93,
+    "max_pain": 21500,
+    "implied_volatility": 13.58,
+    "fii_dii_net_contracts": -28123,
+    "gamma_flip_level": 21350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-17",
+    "spot_price": 23358.17,
+    "pcr": 0.87,
+    "max_pain": 23400,
+    "implied_volatility": 16.56,
+    "fii_dii_net_contracts": -4400,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-18",
+    "spot_price": 24203.65,
+    "pcr": 1.26,
+    "max_pain": 24200,
+    "implied_volatility": 17.13,
+    "fii_dii_net_contracts": 34892,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-19",
+    "spot_price": 23467.25,
+    "pcr": 1.37,
+    "max_pain": 23500,
+    "implied_volatility": 18.24,
+    "fii_dii_net_contracts": 52158,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-20",
+    "spot_price": 21680.7,
+    "pcr": 1.03,
+    "max_pain": 21700,
+    "implied_volatility": 15.15,
+    "fii_dii_net_contracts": -10836,
+    "gamma_flip_level": 21550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "spot_price": 24557.52,
+    "pcr": 0.83,
+    "max_pain": 24600,
+    "implied_volatility": 24.04,
+    "fii_dii_net_contracts": 15970,
+    "gamma_flip_level": 24450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-22",
+    "spot_price": 22094.66,
+    "pcr": 1.18,
+    "max_pain": 22100,
+    "implied_volatility": 13.76,
+    "fii_dii_net_contracts": 35730,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-23",
+    "spot_price": 21506.65,
+    "pcr": 0.85,
+    "max_pain": 21500,
+    "implied_volatility": 24.47,
+    "fii_dii_net_contracts": 34173,
+    "gamma_flip_level": 21350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-24",
+    "spot_price": 22461.14,
+    "pcr": 1.16,
+    "max_pain": 22500,
+    "implied_volatility": 14.69,
+    "fii_dii_net_contracts": 55522,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-25",
+    "spot_price": 24848.57,
+    "pcr": 0.69,
+    "max_pain": 24800,
+    "implied_volatility": 13.05,
+    "fii_dii_net_contracts": 23173,
+    "gamma_flip_level": 24650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "spot_price": 25234.69,
+    "pcr": 0.88,
+    "max_pain": 25200,
+    "implied_volatility": 20.57,
+    "fii_dii_net_contracts": -44979,
+    "gamma_flip_level": 25050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-27",
+    "spot_price": 21648.75,
+    "pcr": 1.04,
+    "max_pain": 21600,
+    "implied_volatility": 19.9,
+    "fii_dii_net_contracts": -31893,
+    "gamma_flip_level": 21450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-28",
+    "spot_price": 24806.51,
+    "pcr": 1.18,
+    "max_pain": 24800,
+    "implied_volatility": 16.44,
+    "fii_dii_net_contracts": -36280,
+    "gamma_flip_level": 24650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-29",
+    "spot_price": 22698.98,
+    "pcr": 1.11,
+    "max_pain": 22700,
+    "implied_volatility": 12.97,
+    "fii_dii_net_contracts": -30601,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-30",
+    "spot_price": 23302.64,
+    "pcr": 1.2,
+    "max_pain": 23300,
+    "implied_volatility": 19.96,
+    "fii_dii_net_contracts": -36345,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-01-31",
+    "spot_price": 21699.43,
+    "pcr": 1.08,
+    "max_pain": 21700,
+    "implied_volatility": 15.18,
+    "fii_dii_net_contracts": -15127,
+    "gamma_flip_level": 21550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-01",
+    "spot_price": 22958.05,
+    "pcr": 1.38,
+    "max_pain": 23000,
+    "implied_volatility": 17.5,
+    "fii_dii_net_contracts": -9780,
+    "gamma_flip_level": 22850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-02",
+    "spot_price": 25449.85,
+    "pcr": 0.68,
+    "max_pain": 25400,
+    "implied_volatility": 14.56,
+    "fii_dii_net_contracts": 7246,
+    "gamma_flip_level": 25250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-03",
+    "spot_price": 23831.01,
+    "pcr": 1.2,
+    "max_pain": 23800,
+    "implied_volatility": 22.64,
+    "fii_dii_net_contracts": 31394,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "spot_price": 23441.09,
+    "pcr": 0.83,
+    "max_pain": 23400,
+    "implied_volatility": 22.6,
+    "fii_dii_net_contracts": -35389,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-05",
+    "spot_price": 21618.02,
+    "pcr": 0.9,
+    "max_pain": 21600,
+    "implied_volatility": 21.25,
+    "fii_dii_net_contracts": 55048,
+    "gamma_flip_level": 21450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-06",
+    "spot_price": 25138.25,
+    "pcr": 1.23,
+    "max_pain": 25100,
+    "implied_volatility": 12.59,
+    "fii_dii_net_contracts": -42327,
+    "gamma_flip_level": 24950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-07",
+    "spot_price": 23105.97,
+    "pcr": 1.01,
+    "max_pain": 23100,
+    "implied_volatility": 22.37,
+    "fii_dii_net_contracts": 53801,
+    "gamma_flip_level": 22950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-08",
+    "spot_price": 23652.17,
+    "pcr": 0.86,
+    "max_pain": 23700,
+    "implied_volatility": 20.63,
+    "fii_dii_net_contracts": 15090,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-09",
+    "spot_price": 23181.07,
+    "pcr": 0.66,
+    "max_pain": 23200,
+    "implied_volatility": 11.6,
+    "fii_dii_net_contracts": 10103,
+    "gamma_flip_level": 23050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-10",
+    "spot_price": 22798.73,
+    "pcr": 1.2,
+    "max_pain": 22800,
+    "implied_volatility": 11.95,
+    "fii_dii_net_contracts": -26654,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-11",
+    "spot_price": 24194.18,
+    "pcr": 0.83,
+    "max_pain": 24200,
+    "implied_volatility": 22.66,
+    "fii_dii_net_contracts": -5046,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-12",
+    "spot_price": 23690.03,
+    "pcr": 1.31,
+    "max_pain": 23700,
+    "implied_volatility": 12.6,
+    "fii_dii_net_contracts": 20987,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-13",
+    "spot_price": 21846.98,
+    "pcr": 0.8,
+    "max_pain": 21800,
+    "implied_volatility": 16.6,
+    "fii_dii_net_contracts": -44714,
+    "gamma_flip_level": 21650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-14",
+    "spot_price": 24629.72,
+    "pcr": 0.86,
+    "max_pain": 24600,
+    "implied_volatility": 19.19,
+    "fii_dii_net_contracts": -16768,
+    "gamma_flip_level": 24450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-15",
+    "spot_price": 22908.36,
+    "pcr": 1.4,
+    "max_pain": 22900,
+    "implied_volatility": 21.75,
+    "fii_dii_net_contracts": -44716,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-16",
+    "spot_price": 24044.19,
+    "pcr": 0.68,
+    "max_pain": 24000,
+    "implied_volatility": 17.16,
+    "fii_dii_net_contracts": -23700,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-17",
+    "spot_price": 23385.42,
+    "pcr": 0.91,
+    "max_pain": 23400,
+    "implied_volatility": 23.38,
+    "fii_dii_net_contracts": 56753,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-18",
+    "spot_price": 24423.22,
+    "pcr": 1.06,
+    "max_pain": 24400,
+    "implied_volatility": 18.52,
+    "fii_dii_net_contracts": -41593,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-19",
+    "spot_price": 25532.28,
+    "pcr": 0.84,
+    "max_pain": 25500,
+    "implied_volatility": 12.46,
+    "fii_dii_net_contracts": 17543,
+    "gamma_flip_level": 25350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-20",
+    "spot_price": 23830.74,
+    "pcr": 1.14,
+    "max_pain": 23800,
+    "implied_volatility": 20.9,
+    "fii_dii_net_contracts": -23202,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-21",
+    "spot_price": 22745.75,
+    "pcr": 0.79,
+    "max_pain": 22700,
+    "implied_volatility": 23.26,
+    "fii_dii_net_contracts": 19432,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-22",
+    "spot_price": 23995.62,
+    "pcr": 0.68,
+    "max_pain": 24000,
+    "implied_volatility": 21.89,
+    "fii_dii_net_contracts": 54940,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-23",
+    "spot_price": 21737.71,
+    "pcr": 0.86,
+    "max_pain": 21700,
+    "implied_volatility": 19.0,
+    "fii_dii_net_contracts": 599,
+    "gamma_flip_level": 21550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-24",
+    "spot_price": 22435.91,
+    "pcr": 0.91,
+    "max_pain": 22400,
+    "implied_volatility": 21.59,
+    "fii_dii_net_contracts": 59419,
+    "gamma_flip_level": 22250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-25",
+    "spot_price": 25535.95,
+    "pcr": 1.17,
+    "max_pain": 25500,
+    "implied_volatility": 21.54,
+    "fii_dii_net_contracts": 20969,
+    "gamma_flip_level": 25350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "spot_price": 24666.98,
+    "pcr": 0.72,
+    "max_pain": 24700,
+    "implied_volatility": 15.39,
+    "fii_dii_net_contracts": -39697,
+    "gamma_flip_level": 24550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-27",
+    "spot_price": 24989.59,
+    "pcr": 0.91,
+    "max_pain": 25000,
+    "implied_volatility": 17.54,
+    "fii_dii_net_contracts": -42097,
+    "gamma_flip_level": 24850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-02-28",
+    "spot_price": 21769.55,
+    "pcr": 0.81,
+    "max_pain": 21800,
+    "implied_volatility": 11.89,
+    "fii_dii_net_contracts": 14362,
+    "gamma_flip_level": 21650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-01",
+    "spot_price": 22182.45,
+    "pcr": 1.23,
+    "max_pain": 22200,
+    "implied_volatility": 18.99,
+    "fii_dii_net_contracts": -6397,
+    "gamma_flip_level": 22050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "spot_price": 22577.39,
+    "pcr": 0.8,
+    "max_pain": 22600,
+    "implied_volatility": 23.48,
+    "fii_dii_net_contracts": 18434,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "spot_price": 23203.52,
+    "pcr": 0.77,
+    "max_pain": 23200,
+    "implied_volatility": 24.43,
+    "fii_dii_net_contracts": -18508,
+    "gamma_flip_level": 23050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-04",
+    "spot_price": 23482.77,
+    "pcr": 1.38,
+    "max_pain": 23500,
+    "implied_volatility": 19.49,
+    "fii_dii_net_contracts": -40700,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-05",
+    "spot_price": 22729.52,
+    "pcr": 1.04,
+    "max_pain": 22700,
+    "implied_volatility": 21.81,
+    "fii_dii_net_contracts": -12381,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "spot_price": 22942.32,
+    "pcr": 1.34,
+    "max_pain": 22900,
+    "implied_volatility": 14.15,
+    "fii_dii_net_contracts": -31555,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-07",
+    "spot_price": 25485.77,
+    "pcr": 0.76,
+    "max_pain": 25500,
+    "implied_volatility": 19.96,
+    "fii_dii_net_contracts": -7274,
+    "gamma_flip_level": 25350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-08",
+    "spot_price": 23043.61,
+    "pcr": 1.06,
+    "max_pain": 23000,
+    "implied_volatility": 15.17,
+    "fii_dii_net_contracts": 50160,
+    "gamma_flip_level": 22850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "spot_price": 25152.3,
+    "pcr": 0.89,
+    "max_pain": 25200,
+    "implied_volatility": 22.12,
+    "fii_dii_net_contracts": 26033,
+    "gamma_flip_level": 25050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "spot_price": 24344.89,
+    "pcr": 1.33,
+    "max_pain": 24300,
+    "implied_volatility": 19.19,
+    "fii_dii_net_contracts": 4678,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-11",
+    "spot_price": 23617.19,
+    "pcr": 1.43,
+    "max_pain": 23600,
+    "implied_volatility": 13.76,
+    "fii_dii_net_contracts": 26391,
+    "gamma_flip_level": 23450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "spot_price": 24002.2,
+    "pcr": 1.3,
+    "max_pain": 24000,
+    "implied_volatility": 12.11,
+    "fii_dii_net_contracts": 25953,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "spot_price": 25299.37,
+    "pcr": 1.16,
+    "max_pain": 25300,
+    "implied_volatility": 11.61,
+    "fii_dii_net_contracts": 47086,
+    "gamma_flip_level": 25150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "spot_price": 25086.49,
+    "pcr": 1.0,
+    "max_pain": 25100,
+    "implied_volatility": 18.45,
+    "fii_dii_net_contracts": -8662,
+    "gamma_flip_level": 24950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "spot_price": 22524.87,
+    "pcr": 0.79,
+    "max_pain": 22500,
+    "implied_volatility": 18.99,
+    "fii_dii_net_contracts": -15972,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "spot_price": 22296.68,
+    "pcr": 0.72,
+    "max_pain": 22300,
+    "implied_volatility": 12.37,
+    "fii_dii_net_contracts": -6477,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-17",
+    "spot_price": 22417.12,
+    "pcr": 0.92,
+    "max_pain": 22400,
+    "implied_volatility": 11.95,
+    "fii_dii_net_contracts": -39442,
+    "gamma_flip_level": 22250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "spot_price": 24220.01,
+    "pcr": 1.36,
+    "max_pain": 24200,
+    "implied_volatility": 11.67,
+    "fii_dii_net_contracts": 3590,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-19",
+    "spot_price": 23998.73,
+    "pcr": 1.16,
+    "max_pain": 24000,
+    "implied_volatility": 22.46,
+    "fii_dii_net_contracts": 40318,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "spot_price": 22475.58,
+    "pcr": 1.38,
+    "max_pain": 22500,
+    "implied_volatility": 14.17,
+    "fii_dii_net_contracts": 27276,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-21",
+    "spot_price": 25664.06,
+    "pcr": 0.73,
+    "max_pain": 25700,
+    "implied_volatility": 21.33,
+    "fii_dii_net_contracts": 36069,
+    "gamma_flip_level": 25550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-22",
+    "spot_price": 24281.46,
+    "pcr": 0.98,
+    "max_pain": 24300,
+    "implied_volatility": 16.78,
+    "fii_dii_net_contracts": -43182,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "spot_price": 22526.17,
+    "pcr": 0.7,
+    "max_pain": 22500,
+    "implied_volatility": 16.24,
+    "fii_dii_net_contracts": 12662,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "spot_price": 22101.06,
+    "pcr": 1.09,
+    "max_pain": 22100,
+    "implied_volatility": 14.78,
+    "fii_dii_net_contracts": -21144,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-25",
+    "spot_price": 24332.14,
+    "pcr": 1.37,
+    "max_pain": 24300,
+    "implied_volatility": 17.86,
+    "fii_dii_net_contracts": 63355,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-26",
+    "spot_price": 25400.19,
+    "pcr": 0.97,
+    "max_pain": 25400,
+    "implied_volatility": 17.8,
+    "fii_dii_net_contracts": -22000,
+    "gamma_flip_level": 25250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-27",
+    "spot_price": 22968.43,
+    "pcr": 1.36,
+    "max_pain": 23000,
+    "implied_volatility": 14.72,
+    "fii_dii_net_contracts": -31731,
+    "gamma_flip_level": 22850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-28",
+    "spot_price": 22612.03,
+    "pcr": 0.68,
+    "max_pain": 22600,
+    "implied_volatility": 19.61,
+    "fii_dii_net_contracts": 274,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "spot_price": 22920.73,
+    "pcr": 1.07,
+    "max_pain": 22900,
+    "implied_volatility": 16.2,
+    "fii_dii_net_contracts": -11101,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "spot_price": 22853.73,
+    "pcr": 1.11,
+    "max_pain": 22900,
+    "implied_volatility": 17.3,
+    "fii_dii_net_contracts": 60667,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-03-31",
+    "spot_price": 23180.4,
+    "pcr": 1.16,
+    "max_pain": 23200,
+    "implied_volatility": 22.55,
+    "fii_dii_net_contracts": 41760,
+    "gamma_flip_level": 23050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "spot_price": 22073.55,
+    "pcr": 0.79,
+    "max_pain": 22100,
+    "implied_volatility": 24.06,
+    "fii_dii_net_contracts": 27397,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "spot_price": 22336.41,
+    "pcr": 1.24,
+    "max_pain": 22300,
+    "implied_volatility": 14.25,
+    "fii_dii_net_contracts": 50161,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "spot_price": 23925.42,
+    "pcr": 1.3,
+    "max_pain": 23900,
+    "implied_volatility": 16.62,
+    "fii_dii_net_contracts": 42090,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-04",
+    "spot_price": 23239.01,
+    "pcr": 0.68,
+    "max_pain": 23200,
+    "implied_volatility": 16.24,
+    "fii_dii_net_contracts": 33176,
+    "gamma_flip_level": 23050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-05",
+    "spot_price": 22097.32,
+    "pcr": 1.32,
+    "max_pain": 22100,
+    "implied_volatility": 17.81,
+    "fii_dii_net_contracts": -20411,
+    "gamma_flip_level": 21950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "spot_price": 24150.23,
+    "pcr": 0.76,
+    "max_pain": 24200,
+    "implied_volatility": 17.46,
+    "fii_dii_net_contracts": 35487,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-07",
+    "spot_price": 21839.71,
+    "pcr": 1.22,
+    "max_pain": 21800,
+    "implied_volatility": 12.11,
+    "fii_dii_net_contracts": -30496,
+    "gamma_flip_level": 21650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "spot_price": 24867.63,
+    "pcr": 1.29,
+    "max_pain": 24900,
+    "implied_volatility": 24.29,
+    "fii_dii_net_contracts": 4999,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "spot_price": 23510.58,
+    "pcr": 1.0,
+    "max_pain": 23500,
+    "implied_volatility": 15.64,
+    "fii_dii_net_contracts": 35877,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "spot_price": 23342.88,
+    "pcr": 0.94,
+    "max_pain": 23300,
+    "implied_volatility": 22.44,
+    "fii_dii_net_contracts": -23427,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-11",
+    "spot_price": 23828.26,
+    "pcr": 1.34,
+    "max_pain": 23800,
+    "implied_volatility": 14.88,
+    "fii_dii_net_contracts": -986,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-12",
+    "spot_price": 21924.87,
+    "pcr": 1.28,
+    "max_pain": 21900,
+    "implied_volatility": 21.29,
+    "fii_dii_net_contracts": -39422,
+    "gamma_flip_level": 21750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "spot_price": 22798.85,
+    "pcr": 0.72,
+    "max_pain": 22800,
+    "implied_volatility": 13.03,
+    "fii_dii_net_contracts": -40694,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-14",
+    "spot_price": 22441.86,
+    "pcr": 1.15,
+    "max_pain": 22400,
+    "implied_volatility": 18.21,
+    "fii_dii_net_contracts": 49423,
+    "gamma_flip_level": 22250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "spot_price": 24671.83,
+    "pcr": 0.76,
+    "max_pain": 24700,
+    "implied_volatility": 23.08,
+    "fii_dii_net_contracts": 59511,
+    "gamma_flip_level": 24550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-16",
+    "spot_price": 22629.79,
+    "pcr": 1.03,
+    "max_pain": 22600,
+    "implied_volatility": 20.27,
+    "fii_dii_net_contracts": 35246,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "spot_price": 24964.12,
+    "pcr": 1.34,
+    "max_pain": 25000,
+    "implied_volatility": 15.58,
+    "fii_dii_net_contracts": 48381,
+    "gamma_flip_level": 24850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "spot_price": 22274.42,
+    "pcr": 1.38,
+    "max_pain": 22300,
+    "implied_volatility": 21.59,
+    "fii_dii_net_contracts": 41436,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-19",
+    "spot_price": 25030.54,
+    "pcr": 1.38,
+    "max_pain": 25000,
+    "implied_volatility": 20.37,
+    "fii_dii_net_contracts": -21851,
+    "gamma_flip_level": 24850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-20",
+    "spot_price": 24206.65,
+    "pcr": 0.83,
+    "max_pain": 24200,
+    "implied_volatility": 17.13,
+    "fii_dii_net_contracts": 63681,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-21",
+    "spot_price": 24209.71,
+    "pcr": 1.22,
+    "max_pain": 24200,
+    "implied_volatility": 13.83,
+    "fii_dii_net_contracts": 44821,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-22",
+    "spot_price": 22578.76,
+    "pcr": 1.02,
+    "max_pain": 22600,
+    "implied_volatility": 19.1,
+    "fii_dii_net_contracts": 61071,
+    "gamma_flip_level": 22450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "spot_price": 23337.19,
+    "pcr": 0.76,
+    "max_pain": 23300,
+    "implied_volatility": 18.84,
+    "fii_dii_net_contracts": 45482,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-24",
+    "spot_price": 25387.45,
+    "pcr": 1.22,
+    "max_pain": 25400,
+    "implied_volatility": 18.38,
+    "fii_dii_net_contracts": 23654,
+    "gamma_flip_level": 25250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-25",
+    "spot_price": 24657.45,
+    "pcr": 1.13,
+    "max_pain": 24700,
+    "implied_volatility": 16.81,
+    "fii_dii_net_contracts": -19832,
+    "gamma_flip_level": 24550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-26",
+    "spot_price": 22723.94,
+    "pcr": 1.03,
+    "max_pain": 22700,
+    "implied_volatility": 18.19,
+    "fii_dii_net_contracts": 40321,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "spot_price": 22317.69,
+    "pcr": 1.41,
+    "max_pain": 22300,
+    "implied_volatility": 20.74,
+    "fii_dii_net_contracts": -13941,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "spot_price": 24931.2,
+    "pcr": 1.12,
+    "max_pain": 24900,
+    "implied_volatility": 16.95,
+    "fii_dii_net_contracts": -36682,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "spot_price": 22815.53,
+    "pcr": 0.81,
+    "max_pain": 22800,
+    "implied_volatility": 23.65,
+    "fii_dii_net_contracts": 21540,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "spot_price": 23508.41,
+    "pcr": 0.69,
+    "max_pain": 23500,
+    "implied_volatility": 22.92,
+    "fii_dii_net_contracts": -3318,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "spot_price": 22279.26,
+    "pcr": 0.66,
+    "max_pain": 22300,
+    "implied_volatility": 19.45,
+    "fii_dii_net_contracts": -16127,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-02",
+    "spot_price": 25716.5,
+    "pcr": 0.79,
+    "max_pain": 25700,
+    "implied_volatility": 17.39,
+    "fii_dii_net_contracts": 25658,
+    "gamma_flip_level": 25550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-03",
+    "spot_price": 23075.27,
+    "pcr": 0.75,
+    "max_pain": 23100,
+    "implied_volatility": 16.99,
+    "fii_dii_net_contracts": 12584,
+    "gamma_flip_level": 22950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "spot_price": 23938.6,
+    "pcr": 1.06,
+    "max_pain": 23900,
+    "implied_volatility": 14.71,
+    "fii_dii_net_contracts": 25333,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "spot_price": 23708.06,
+    "pcr": 1.15,
+    "max_pain": 23700,
+    "implied_volatility": 16.88,
+    "fii_dii_net_contracts": -8793,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "spot_price": 24360.95,
+    "pcr": 0.98,
+    "max_pain": 24400,
+    "implied_volatility": 18.1,
+    "fii_dii_net_contracts": -20929,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "spot_price": 25058.49,
+    "pcr": 1.37,
+    "max_pain": 25100,
+    "implied_volatility": 13.1,
+    "fii_dii_net_contracts": 55257,
+    "gamma_flip_level": 24950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "spot_price": 24903.49,
+    "pcr": 1.01,
+    "max_pain": 24900,
+    "implied_volatility": 23.0,
+    "fii_dii_net_contracts": 4342,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-09",
+    "spot_price": 24483.25,
+    "pcr": 1.01,
+    "max_pain": 24500,
+    "implied_volatility": 19.11,
+    "fii_dii_net_contracts": -18770,
+    "gamma_flip_level": 24350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-10",
+    "spot_price": 22652.32,
+    "pcr": 1.33,
+    "max_pain": 22700,
+    "implied_volatility": 20.99,
+    "fii_dii_net_contracts": 34245,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-11",
+    "spot_price": 25166.26,
+    "pcr": 0.82,
+    "max_pain": 25200,
+    "implied_volatility": 17.25,
+    "fii_dii_net_contracts": 60107,
+    "gamma_flip_level": 25050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "spot_price": 22805.21,
+    "pcr": 0.77,
+    "max_pain": 22800,
+    "implied_volatility": 19.95,
+    "fii_dii_net_contracts": 39396,
+    "gamma_flip_level": 22650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-13",
+    "spot_price": 25292.97,
+    "pcr": 1.01,
+    "max_pain": 25300,
+    "implied_volatility": 14.45,
+    "fii_dii_net_contracts": -32380,
+    "gamma_flip_level": 25150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "spot_price": 24034.61,
+    "pcr": 0.67,
+    "max_pain": 24000,
+    "implied_volatility": 14.07,
+    "fii_dii_net_contracts": 46224,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "spot_price": 25557.22,
+    "pcr": 1.38,
+    "max_pain": 25600,
+    "implied_volatility": 14.15,
+    "fii_dii_net_contracts": 26626,
+    "gamma_flip_level": 25450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "spot_price": 25745.03,
+    "pcr": 0.74,
+    "max_pain": 25700,
+    "implied_volatility": 20.51,
+    "fii_dii_net_contracts": 48491,
+    "gamma_flip_level": 25550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "spot_price": 25787.17,
+    "pcr": 0.77,
+    "max_pain": 25800,
+    "implied_volatility": 15.64,
+    "fii_dii_net_contracts": 17624,
+    "gamma_flip_level": 25650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-18",
+    "spot_price": 22909.9,
+    "pcr": 0.75,
+    "max_pain": 22900,
+    "implied_volatility": 20.01,
+    "fii_dii_net_contracts": 36423,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "spot_price": 24131.04,
+    "pcr": 0.78,
+    "max_pain": 24100,
+    "implied_volatility": 22.11,
+    "fii_dii_net_contracts": -14900,
+    "gamma_flip_level": 23950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "spot_price": 22331.34,
+    "pcr": 0.94,
+    "max_pain": 22300,
+    "implied_volatility": 22.22,
+    "fii_dii_net_contracts": 14430,
+    "gamma_flip_level": 22150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "spot_price": 22435.77,
+    "pcr": 1.19,
+    "max_pain": 22400,
+    "implied_volatility": 19.37,
+    "fii_dii_net_contracts": -227,
+    "gamma_flip_level": 22250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "spot_price": 23514.67,
+    "pcr": 1.44,
+    "max_pain": 23500,
+    "implied_volatility": 18.23,
+    "fii_dii_net_contracts": 61507,
+    "gamma_flip_level": 23350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "spot_price": 25089.35,
+    "pcr": 1.44,
+    "max_pain": 25100,
+    "implied_volatility": 20.17,
+    "fii_dii_net_contracts": 27260,
+    "gamma_flip_level": 24950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-24",
+    "spot_price": 24254.33,
+    "pcr": 0.74,
+    "max_pain": 24300,
+    "implied_volatility": 12.58,
+    "fii_dii_net_contracts": 4636,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "spot_price": 25586.64,
+    "pcr": 0.94,
+    "max_pain": 25600,
+    "implied_volatility": 18.97,
+    "fii_dii_net_contracts": -31447,
+    "gamma_flip_level": 25450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "spot_price": 24295.75,
+    "pcr": 1.2,
+    "max_pain": 24300,
+    "implied_volatility": 19.88,
+    "fii_dii_net_contracts": 32115,
+    "gamma_flip_level": 24150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-27",
+    "spot_price": 22745.72,
+    "pcr": 0.79,
+    "max_pain": 22700,
+    "implied_volatility": 15.48,
+    "fii_dii_net_contracts": -6904,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "spot_price": 23748.09,
+    "pcr": 1.24,
+    "max_pain": 23700,
+    "implied_volatility": 20.05,
+    "fii_dii_net_contracts": -24332,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "spot_price": 24221.9,
+    "pcr": 1.22,
+    "max_pain": 24200,
+    "implied_volatility": 19.8,
+    "fii_dii_net_contracts": 25616,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "spot_price": 26013.35,
+    "pcr": 1.29,
+    "max_pain": 26000,
+    "implied_volatility": 22.71,
+    "fii_dii_net_contracts": 5996,
+    "gamma_flip_level": 25850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "spot_price": 23618.24,
+    "pcr": 0.83,
+    "max_pain": 23600,
+    "implied_volatility": 16.19,
+    "fii_dii_net_contracts": 53673,
+    "gamma_flip_level": 23450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "spot_price": 24002.72,
+    "pcr": 0.95,
+    "max_pain": 24000,
+    "implied_volatility": 13.22,
+    "fii_dii_net_contracts": 4658,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "spot_price": 23020.69,
+    "pcr": 1.37,
+    "max_pain": 23000,
+    "implied_volatility": 16.27,
+    "fii_dii_net_contracts": 29203,
+    "gamma_flip_level": 22850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "spot_price": 25294.2,
+    "pcr": 0.71,
+    "max_pain": 25300,
+    "implied_volatility": 19.11,
+    "fii_dii_net_contracts": 58400,
+    "gamma_flip_level": 25150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "spot_price": 25654.75,
+    "pcr": 1.23,
+    "max_pain": 25700,
+    "implied_volatility": 20.55,
+    "fii_dii_net_contracts": -8427,
+    "gamma_flip_level": 25550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "spot_price": 25664.93,
+    "pcr": 1.36,
+    "max_pain": 25700,
+    "implied_volatility": 14.51,
+    "fii_dii_net_contracts": -19951,
+    "gamma_flip_level": 25550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "spot_price": 22859.81,
+    "pcr": 1.15,
+    "max_pain": 22900,
+    "implied_volatility": 18.43,
+    "fii_dii_net_contracts": 16477,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "spot_price": 22544.37,
+    "pcr": 0.83,
+    "max_pain": 22500,
+    "implied_volatility": 11.91,
+    "fii_dii_net_contracts": 39750,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "spot_price": 22656.78,
+    "pcr": 1.41,
+    "max_pain": 22700,
+    "implied_volatility": 18.9,
+    "fii_dii_net_contracts": 50079,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "spot_price": 24124.65,
+    "pcr": 1.17,
+    "max_pain": 24100,
+    "implied_volatility": 14.17,
+    "fii_dii_net_contracts": -2625,
+    "gamma_flip_level": 23950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "spot_price": 23348.86,
+    "pcr": 1.05,
+    "max_pain": 23300,
+    "implied_volatility": 15.32,
+    "fii_dii_net_contracts": 12458,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-11",
+    "spot_price": 23308.43,
+    "pcr": 1.02,
+    "max_pain": 23300,
+    "implied_volatility": 14.21,
+    "fii_dii_net_contracts": -8143,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "spot_price": 25958.04,
+    "pcr": 0.69,
+    "max_pain": 26000,
+    "implied_volatility": 15.9,
+    "fii_dii_net_contracts": -31515,
+    "gamma_flip_level": 25850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "spot_price": 23254.1,
+    "pcr": 1.35,
+    "max_pain": 23300,
+    "implied_volatility": 24.15,
+    "fii_dii_net_contracts": 8850,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "spot_price": 23050.53,
+    "pcr": 0.87,
+    "max_pain": 23100,
+    "implied_volatility": 12.58,
+    "fii_dii_net_contracts": -26345,
+    "gamma_flip_level": 22950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "spot_price": 23448.18,
+    "pcr": 0.85,
+    "max_pain": 23400,
+    "implied_volatility": 11.77,
+    "fii_dii_net_contracts": -579,
+    "gamma_flip_level": 23250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "spot_price": 25084.54,
+    "pcr": 1.27,
+    "max_pain": 25100,
+    "implied_volatility": 23.41,
+    "fii_dii_net_contracts": 30626,
+    "gamma_flip_level": 24950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-17",
+    "spot_price": 25812.25,
+    "pcr": 1.2,
+    "max_pain": 25800,
+    "implied_volatility": 17.06,
+    "fii_dii_net_contracts": 17650,
+    "gamma_flip_level": 25650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "spot_price": 24194.39,
+    "pcr": 0.81,
+    "max_pain": 24200,
+    "implied_volatility": 17.43,
+    "fii_dii_net_contracts": -3059,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "spot_price": 24827.13,
+    "pcr": 1.28,
+    "max_pain": 24800,
+    "implied_volatility": 14.68,
+    "fii_dii_net_contracts": 32495,
+    "gamma_flip_level": 24650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "spot_price": 22393.22,
+    "pcr": 0.83,
+    "max_pain": 22400,
+    "implied_volatility": 21.54,
+    "fii_dii_net_contracts": -13927,
+    "gamma_flip_level": 22250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-21",
+    "spot_price": 25646.65,
+    "pcr": 1.31,
+    "max_pain": 25600,
+    "implied_volatility": 17.65,
+    "fii_dii_net_contracts": -20463,
+    "gamma_flip_level": 25450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-22",
+    "spot_price": 25906.32,
+    "pcr": 0.71,
+    "max_pain": 25900,
+    "implied_volatility": 12.66,
+    "fii_dii_net_contracts": 6056,
+    "gamma_flip_level": 25750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "spot_price": 24027.56,
+    "pcr": 0.98,
+    "max_pain": 24000,
+    "implied_volatility": 21.71,
+    "fii_dii_net_contracts": -1637,
+    "gamma_flip_level": 23850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "spot_price": 23796.54,
+    "pcr": 0.86,
+    "max_pain": 23800,
+    "implied_volatility": 17.51,
+    "fii_dii_net_contracts": -36635,
+    "gamma_flip_level": 23650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "spot_price": 25425.5,
+    "pcr": 1.14,
+    "max_pain": 25400,
+    "implied_volatility": 20.29,
+    "fii_dii_net_contracts": 56481,
+    "gamma_flip_level": 25250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "spot_price": 23925.77,
+    "pcr": 1.13,
+    "max_pain": 23900,
+    "implied_volatility": 15.5,
+    "fii_dii_net_contracts": -5564,
+    "gamma_flip_level": 23750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "spot_price": 24539.29,
+    "pcr": 0.9,
+    "max_pain": 24500,
+    "implied_volatility": 21.51,
+    "fii_dii_net_contracts": -34639,
+    "gamma_flip_level": 24350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-28",
+    "spot_price": 25965.57,
+    "pcr": 1.06,
+    "max_pain": 26000,
+    "implied_volatility": 19.3,
+    "fii_dii_net_contracts": 11527,
+    "gamma_flip_level": 25850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-29",
+    "spot_price": 23283.69,
+    "pcr": 0.72,
+    "max_pain": 23300,
+    "implied_volatility": 22.97,
+    "fii_dii_net_contracts": 6832,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "spot_price": 25472.17,
+    "pcr": 1.39,
+    "max_pain": 25500,
+    "implied_volatility": 18.45,
+    "fii_dii_net_contracts": 46384,
+    "gamma_flip_level": 25350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-01",
+    "spot_price": 24446.72,
+    "pcr": 1.03,
+    "max_pain": 24400,
+    "implied_volatility": 23.06,
+    "fii_dii_net_contracts": 34804,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "spot_price": 24191.47,
+    "pcr": 0.93,
+    "max_pain": 24200,
+    "implied_volatility": 16.25,
+    "fii_dii_net_contracts": 35765,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "spot_price": 22668.85,
+    "pcr": 0.85,
+    "max_pain": 22700,
+    "implied_volatility": 19.14,
+    "fii_dii_net_contracts": -16755,
+    "gamma_flip_level": 22550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-04",
+    "spot_price": 22978.62,
+    "pcr": 0.93,
+    "max_pain": 23000,
+    "implied_volatility": 11.71,
+    "fii_dii_net_contracts": -2221,
+    "gamma_flip_level": 22850,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-05",
+    "spot_price": 26224.58,
+    "pcr": 1.01,
+    "max_pain": 26200,
+    "implied_volatility": 23.04,
+    "fii_dii_net_contracts": -39286,
+    "gamma_flip_level": 26050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "spot_price": 25788.94,
+    "pcr": 1.33,
+    "max_pain": 25800,
+    "implied_volatility": 15.2,
+    "fii_dii_net_contracts": 10773,
+    "gamma_flip_level": 25650,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "spot_price": 24520.35,
+    "pcr": 1.32,
+    "max_pain": 24500,
+    "implied_volatility": 21.66,
+    "fii_dii_net_contracts": 47342,
+    "gamma_flip_level": 24350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "spot_price": 26192.41,
+    "pcr": 1.31,
+    "max_pain": 26200,
+    "implied_volatility": 19.26,
+    "fii_dii_net_contracts": 8655,
+    "gamma_flip_level": 26050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "spot_price": 24561.6,
+    "pcr": 0.99,
+    "max_pain": 24600,
+    "implied_volatility": 13.52,
+    "fii_dii_net_contracts": 60849,
+    "gamma_flip_level": 24450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-10",
+    "spot_price": 23340.14,
+    "pcr": 0.75,
+    "max_pain": 23300,
+    "implied_volatility": 19.02,
+    "fii_dii_net_contracts": 49721,
+    "gamma_flip_level": 23150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-11",
+    "spot_price": 22857.43,
+    "pcr": 1.31,
+    "max_pain": 22900,
+    "implied_volatility": 12.22,
+    "fii_dii_net_contracts": -42378,
+    "gamma_flip_level": 22750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-12",
+    "spot_price": 25932.31,
+    "pcr": 1.39,
+    "max_pain": 25900,
+    "implied_volatility": 14.66,
+    "fii_dii_net_contracts": 16494,
+    "gamma_flip_level": 25750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "spot_price": 25646.87,
+    "pcr": 0.7,
+    "max_pain": 25600,
+    "implied_volatility": 22.47,
+    "fii_dii_net_contracts": 1647,
+    "gamma_flip_level": 25450,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-14",
+    "spot_price": 24903.57,
+    "pcr": 0.93,
+    "max_pain": 24900,
+    "implied_volatility": 19.19,
+    "fii_dii_net_contracts": 32554,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "spot_price": 25910.84,
+    "pcr": 0.7,
+    "max_pain": 25900,
+    "implied_volatility": 21.79,
+    "fii_dii_net_contracts": 16913,
+    "gamma_flip_level": 25750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "spot_price": 24376.75,
+    "pcr": 0.89,
+    "max_pain": 24400,
+    "implied_volatility": 22.23,
+    "fii_dii_net_contracts": -32637,
+    "gamma_flip_level": 24250,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "spot_price": 23666.1,
+    "pcr": 0.81,
+    "max_pain": 23700,
+    "implied_volatility": 12.04,
+    "fii_dii_net_contracts": -20550,
+    "gamma_flip_level": 23550,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "spot_price": 25137.8,
+    "pcr": 1.38,
+    "max_pain": 25100,
+    "implied_volatility": 11.83,
+    "fii_dii_net_contracts": -12284,
+    "gamma_flip_level": 24950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-19",
+    "spot_price": 24220.93,
+    "pcr": 1.32,
+    "max_pain": 24200,
+    "implied_volatility": 16.62,
+    "fii_dii_net_contracts": 32679,
+    "gamma_flip_level": 24050,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "spot_price": 24924.57,
+    "pcr": 0.98,
+    "max_pain": 24900,
+    "implied_volatility": 15.12,
+    "fii_dii_net_contracts": 26487,
+    "gamma_flip_level": 24750,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "spot_price": 25334.86,
+    "pcr": 0.8,
+    "max_pain": 25300,
+    "implied_volatility": 23.79,
+    "fii_dii_net_contracts": 34400,
+    "gamma_flip_level": 25150,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "spot_price": 22465.43,
+    "pcr": 0.78,
+    "max_pain": 22500,
+    "implied_volatility": 15.28,
+    "fii_dii_net_contracts": 60654,
+    "gamma_flip_level": 22350,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "spot_price": 24053.06,
+    "pcr": 1.15,
+    "max_pain": 24100,
+    "implied_volatility": 15.82,
+    "fii_dii_net_contracts": -42704,
+    "gamma_flip_level": 23950,
+    "api_sources_active": [
+      "Yahoo_Finance_v2",
+      "NSE_Direct_Feed",
+      "AlphaV_Aggregator"
+    ]
+  }
+]
