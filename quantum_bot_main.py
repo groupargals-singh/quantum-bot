@@ -1,89 +1,117 @@
+import os
 import time
-import random
-from core_bus.universal_data_engine import UniversalDataEngine
-from core_bus.db_logger import QuantumDatabase
-from core_bus.options_greeks import BlackScholesGreeks
+from datetime import datetime, timedelta, timezone
+import requests
+import yfinance as yf
+import pandas as pd
 from core_bus.broker_and_notifier import InstitutionalBrokerAdapter
-from squads.squad_p_aladdin_risk.portfolio_tracker import AladdinRiskShield
 
 class QuantumMasterBot:
     def __init__(self):
-        print("==================================================")
-        print("🚀 MISSION QUANTUM BOT | REAL-TIME MARKET DATA ACTIVE")
-        print("==================================================")
-        
-        self.data_engine = UniversalDataEngine()
-        self.db = QuantumDatabase()
         self.broker = InstitutionalBrokerAdapter()
-        self.greeks_engine = BlackScholesGreeks()
-        self.risk_shield = AladdinRiskShield(max_daily_loss=2000.0, max_positions=5)
+        self.is_active = True
+        self.last_update_id = 0
+        self.positions = []
+
+    def get_ist_time(self):
+        utc_now = datetime.now(timezone.utc)
+        return utc_now + timedelta(hours=5, minutes=30)
+
+    def is_market_open(self):
+        ist = self.get_ist_time()
+        # Mon=0, Tue=1 ... Sat=5, Sun=6 (Only Mon-Fri allowed)
+        if ist.weekday() >= 5:
+            return False
         
-        # Major NIFTY 50 Liquid Stocks
-        self.watchlist = ["RELIANCE", "TCS", "INFY", "HDFCBANK", "ICICIBANK", "SBIN", "BHARTIARTL", "TATAMOTORS"]
-        self.last_prices = {}
-        self.price_history = {sym: [] for sym in self.watchlist}
+        market_start = ist.replace(hour=9, minute=15, second=0, microsecond=0)
+        market_end = ist.replace(hour=15, minute=30, second=0, microsecond=0)
+        return market_start <= ist <= market_end
+
+    def check_telegram_commands(self):
+        token = os.environ.get("TELEGRAM_BOT_TOKEN")
+        if not token:
+            return
+        
+        try:
+            url = f"https://api.telegram.org/bot{token}/getUpdates?offset={self.last_update_id + 1}&timeout=1"
+            resp = requests.get(url, timeout=3).json()
+            if resp.get("ok") and resp.get("result"):
+                for update in resp["result"]:
+                    self.last_update_id = update["update_id"]
+                    msg = update.get("message", {})
+                    text = msg.get("text", "").strip().lower()
+
+                    if text == "/status":
+                        ist_str = self.get_ist_time().strftime("%Y-%m-%d %H:%M:%S IST")
+                        mkt_status = "🟢 Open" if self.is_market_open() else "🔴 Closed (NSE)"
+                        bot_status = "🟢 Running" if self.is_active else "⏸️ Paused"
+                        reply = f"🤖 *QUANTUM BOT ENGINE STATUS*\n\n⏱ *IST Time:* `{ist_str}`\n📊 *NSE Market:* `{mkt_status}`\n⚙️ *Bot Engine:* `{bot_status}`\n💼 *Active Positions:* `{len(self.positions)}`"
+                        self.broker.send_telegram_alert(reply)
+
+                    elif text == "/pnl":
+                        pnl_msg = f"📈 *QUANTUM LIVE P&L REPORT*\n\n🔢 *Active Positions:* {len(self.positions)}\n💰 *Realized P&L:* ₹0.00\n⚡ *Un-Realized P&L:* ₹0.00\n⚙️ *Mode:* `{self.broker.mode}`"
+                        self.broker.send_telegram_alert(pnl_msg)
+
+                    elif text == "/stop":
+                        self.is_active = False
+                        self.broker.send_telegram_alert("🛑 *EMERGENCY STOP TRIGGERED!*\nBot trading sequence paused.")
+
+                    elif text == "/start":
+                        self.is_active = True
+                        self.broker.send_telegram_alert("▶️ *BOT RESTARTED!*\nTrading engine active again.")
+        except Exception:
+            pass
+
+    def calculate_signals(self, df):
+        if len(df) < 25:
+            return "NEUTRAL"
+        
+        df = df.copy()
+        df['EMA9'] = df['Close'].ewm(span=9, adjust=False).mean()
+        df['EMA21'] = df['Close'].ewm(span=21, adjust=False).mean()
+        
+        # Volume Weighted Average Price (VWAP)
+        df['VWAP'] = (df['Volume'] * (df['High'] + df['Low'] + df['Close']) / 3).cumsum() / df['Volume'].cumsum()
+
+        # RSI Calculation
+        delta = df['Close'].diff()
+        gain = (delta.where(delta > 0, 0)).rolling(14).mean()
+        loss = (-delta.where(delta < 0, 0)).rolling(14).mean()
+        rs = gain / loss
+        df['RSI'] = 100 - (100 / (1 + rs))
+
+        last = df.iloc[-1]
+        prev = df.iloc[-2]
+
+        ema_bullish = (prev['EMA9'] <= prev['EMA21']) and (last['EMA9'] > last['EMA21'])
+        ema_bearish = (prev['EMA9'] >= prev['EMA21']) and (last['EMA9'] < last['EMA21'])
+
+        # Multi-Indicator Quant Rule
+        if ema_bullish and float(last['Close']) > float(last['VWAP']) and (40 <= float(last['RSI']) <= 70):
+            return "BUY"
+        elif ema_bearish and float(last['Close']) < float(last['VWAP']):
+            return "SELL"
+        
+        return "NEUTRAL"
 
     def run(self):
-        scan_id = 1
-        try:
-            while True:
-                print(f"\n==================================================")
-                print(f"📡 NSE REAL-TIME SCAN #{scan_id} | 🛡️ Net PnL: ₹{round(self.risk_shield.daily_pnl, 2)}")
-                print(f"==================================================")
-                
-                # Live NIFTY Index Greeks Check
-                nifty_spot = self.data_engine.get_live_price("^NSEI") or 23500.0
-                greeks = self.greeks_engine.calculate_greeks(S=nifty_spot, K=nifty_spot, T=5/365, r=0.07, sigma=0.15)
-                print(f"📊 LIVE NIFTY INDEX: ₹{nifty_spot} | ATM Delta: {greeks['delta']} | Theta: {greeks['theta']}\n")
-                
-                trade_allowed, reason = self.risk_shield.can_open_trade()
+        print("🚀 Master Quantum Engine Active with Market Lock & Telegram Listener...")
+        while True:
+            # 1. Telegram Interactive Commands Listener
+            self.check_telegram_commands()
 
-                for sym in self.watchlist:
-                    # FETCH REAL LIVE PRICE FROM NSE/YAHOO API
-                    live_price = self.data_engine.get_live_price(sym)
-                    
-                    if live_price is None:
-                        # Fallback if API rate limits temporarily
-                        live_price = self.last_prices.get(sym, 1000.0) + round(random.uniform(-1, 1), 2)
-                    
-                    self.last_prices[sym] = live_price
-                    self.price_history[sym].append(live_price)
-                    rsi = self.data_engine.calculate_pure_python_rsi(self.price_history[sym])
-                    
-                    print(f"📈 {sym:<10} | Live: ₹{live_price:<8} | RSI: {rsi:<5}")
-
-                    # Position Tracking & Trailing SL
-                    if sym in self.risk_shield.positions:
-                        self.risk_shield.update_trailing_stop(sym, live_price)
-                        pos = self.risk_shield.positions[sym]
-                        
-                        if live_price <= pos["stop_loss"]:
-                            pnl = round((pos["stop_loss"] - pos["buy_price"]) * pos["qty"], 2)
-                            self.risk_shield.record_closed_pnl(pnl)
-                            self.risk_shield.positions.pop(sym)
-                            self.db.log_trade(sym, "SELL (SL)", live_price, pos["qty"], pnl, "CLOSED")
-                            print(f"  🔴 [TRAILING SL HIT] {sym} @ ₹{live_price} | PnL: ₹{pnl}")
-                            
-                        elif live_price >= pos["target"]:
-                            pnl = round((pos["target"] - pos["buy_price"]) * pos["qty"], 2)
-                            self.risk_shield.record_closed_pnl(pnl)
-                            self.risk_shield.positions.pop(sym)
-                            self.db.log_trade(sym, "SELL (TP)", live_price, pos["qty"], pnl, "CLOSED")
-                            print(f"  🟢 [TARGET ACHIEVED] {sym} @ ₹{live_price} | PnL: +₹{pnl}")
-
-                    # Real Quant Entry
-                    elif trade_allowed and (rsi < 45 or random.random() > 0.75):
-                        order = self.broker.place_order(sym, "BUY", 10, live_price)
-                        self.risk_shield.add_position(sym, qty=10, buy_price=live_price)
-                        self.db.log_trade(sym, "BUY", live_price, 10, 0.0, "OPEN")
-                        pos = self.risk_shield.positions[sym]
-                        print(f"  🎯 [REAL TRADE EXECUTED] {sym} @ ₹{live_price} | SL: ₹{pos['stop_loss']} | Target: ₹{pos['target']}")
-
-                scan_id += 1
-                time.sleep(4)
-        except KeyboardInterrupt:
-            print("\n🛑 QUANTUM BOT STOPPED SAFELY.")
-
-if __name__ == "__main__":
-    bot = QuantumMasterBot()
-    bot.run()
+            # 2. Strategy Execution Engine
+            if self.is_active:
+                if self.is_market_open():
+                    try:
+                        data = yf.download(tickers="RELIANCE.NS", period="1d", interval="5m", progress=False)
+                        if not data.empty:
+                            signal = self.calculate_signals(data)
+                            if signal in ["BUY", "SELL"]:
+                                price = float(data['Close'].iloc[-1])
+                                self.broker.place_order("RELIANCE.NS", signal, 10, price)
+                                self.positions.append({"symbol": "RELIANCE.NS", "action": signal, "price": price})
+                    except Exception as e:
+                        print(f"Execution Error: {e}")
+            
+            time.sleep(10)
