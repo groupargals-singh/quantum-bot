@@ -8,7 +8,7 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 from core.event_bus import event_bus
 from core.level2_engine import BinanceLevel2Engine
-import squads.squad_m_orderflow  # Load Squad M & Aladdin Risk Listener
+import squads.squad_t_master_commander  # Load Squad T Master Orchestrator
 
 app = Flask(__name__)
 l2_engine = BinanceLevel2Engine("btcusdt")
@@ -26,19 +26,19 @@ event_bus.subscribe("level2_depth_update", update_snapshot)
 def health_check():
     return jsonify({
         "status": "online",
-        "system": "Quantum Bot - Phase 2 Enterprise Core",
-        "squad_m_orderflow": "Active",
-        "squad_p_aladdin_risk": "Active",
+        "system": "Quantum Bot - Phase 3 Consensus Core",
+        "master_commander": "Squad T Active",
+        "voting_matrix": "Squad M + Squad B + Squad P",
         "latest_snapshot": latest_l2_snapshot
     }), 200
 
-def start_phase2_engine():
-    print("🚀 [QUANTUM BOT] Launching Phase 2 Multi-Agent Execution...")
+def start_phase3_engine():
+    print("🚀 [QUANTUM BOT] Launching Phase 3 Multi-Agent Consensus System...")
     time.sleep(1)
     l2_engine.start()
 
 if __name__ == "__main__":
-    engine_thread = threading.Thread(target=start_phase2_engine, daemon=True)
+    engine_thread = threading.Thread(target=start_phase3_engine, daemon=True)
     engine_thread.start()
 
     port = int(os.environ.get("PORT", 10000))
