@@ -3,7 +3,7 @@ from core.event_bus import event_bus
 from core.database import save_trade_db, update_trade_exit_db
 
 class SquadSSmartExecutor:
-    """Squad S: Paper Trading Execution with Dynamic Trailing Stop-Loss"""
+    """Squad S: Paper Trading with Dynamic Dynamic Compound Sizing"""
     def __init__(self, initial_capital=10000.0):
         self.capital = initial_capital
         self.balance = initial_capital
@@ -13,11 +13,12 @@ class SquadSSmartExecutor:
         event_bus.subscribe("level2_depth_update", self.on_price_update)
 
     def execute_paper_trade(self, signal_data):
-        if len(self.positions) >= 5:  # Scaled to 5 concurrent positions for multi-pair
+        if len(self.positions) >= 5:
             print("⚠️ [SQUAD S] Max open multi-asset positions reached.")
             return
 
-        trade_size = 1000.0
+        # Dynamic Risk Sizing: Allocate 10% of total balance per trade
+        trade_size = round(self.balance * 0.10, 2)
         trade_id = int(time.time() * 1000)
         
         position = {
@@ -37,7 +38,7 @@ class SquadSSmartExecutor:
             signal_data['entry'], signal_data['stop_loss'], 
             signal_data['take_profit'], status="OPEN"
         )
-        print(f"📈 [SQUAD S TRADE OPENED] {position['type']} {position['symbol']} @ ${position['entry_price']}")
+        print(f"📈 [SQUAD S DYNAMIC TRADE] {position['type']} {position['symbol']} | Size: ${trade_size} USDT @ ${position['entry_price']}")
 
     def on_price_update(self, data):
         symbol = data['symbol']
@@ -53,9 +54,7 @@ class SquadSSmartExecutor:
             closed = False
             exit_reason = ""
 
-            # Dynamic Trailing Stop Loss Adjuster
             if pos['type'] == "BUY":
-                # Price moved up: Raise Stop Loss to lock profits
                 new_sl = round(current_price * 0.995, 2)
                 if new_sl > pos['stop_loss']:
                     pos['stop_loss'] = new_sl
@@ -70,7 +69,6 @@ class SquadSSmartExecutor:
                     pnl = (pos['amount'] / pos['entry_price']) * (pos['stop_loss'] - pos['entry_price'])
 
             elif pos['type'] == "SELL":
-                # Price moved down: Lower Stop Loss for SELL
                 new_sl = round(current_price * 1.005, 2)
                 if new_sl < pos['stop_loss']:
                     pos['stop_loss'] = new_sl
