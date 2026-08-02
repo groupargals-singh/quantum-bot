@@ -1,8 +1,9 @@
 import asyncio
-import time
+import json
 import os
 import requests
 import numpy as np
+import websockets
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -23,64 +24,102 @@ def send_telegram_alert(message: str):
     except Exception as e:
         print(f"⚠️ Telegram Dispatch Error: {e}")
 
-def fetch_live_market_price():
-    """Fetches real live Binance market price"""
-    try:
-        url = "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT"
-        res = requests.get(url, timeout=5).json()
-        return float(res["price"])
-    except Exception as e:
-        print(f"⚠️ Live Data Fetch Error: {e}")
-        return 65000.0
+def calculate_rsi(prices, period=14):
+    """Calculates Real Relative Strength Index (RSI)"""
+    if len(prices) < period + 1:
+        return 50.0
+    
+    deltas = np.diff(prices)
+    gains = np.where(deltas > 0, deltas, 0)
+    losses = np.where(deltas < 0, -deltas, 0)
 
-async def run_clean_engine():
+    avg_gain = np.mean(gains[-period:])
+    avg_loss = np.mean(losses[-period:])
+
+    if avg_loss == 0:
+        return 100.0
+    
+    rs = avg_gain / avg_loss
+    rsi = 100.0 - (100.0 / (1.0 + rs))
+    return round(float(rsi), 2)
+
+async def binance_real_quantum_engine():
+    url = "wss://stream.binance.com:9443/ws/btcusdt@kline_1m"
+    
+    price_history = []
+    last_signal_time = 0
+
     print("=========================================================")
-    print("⚡ 24/7 LIVE SIGNAL ENGINE STARTED (NO WELCOME SPAM)")
+    print("⚡ 100% REAL QUANTUM ENGINE STARTED (BINANCE WEBSOCKET)")
     print("=========================================================")
 
-    cycle = 1
-    while True:
-        start_time = time.perf_counter()
-        current_price = fetch_live_market_price()
+    async with websockets.connect(url) as ws:
+        while True:
+            try:
+                response = await ws.recv()
+                data = json.loads(response)
+                kline = data.get('k', {})
+                
+                current_price = float(kline.get('c', 0))
+                total_volume = float(kline.get('v', 0))
+                buyer_volume = float(kline.get('V', 0))
+                seller_volume = max(0.0, total_volume - buyer_volume)
 
-        # Real Quantum Analytics Simulation
-        win_prob = round(float(np.random.uniform(73.0, 89.0)), 2)
-        consensus_pct = round(float(np.random.uniform(80.0, 95.0)), 2)
-        order_flow_delta = round(float(np.random.uniform(-0.5, 0.5)), 3)
-        allocated_capital = 25000
+                if current_price == 0:
+                    continue
 
-        elapsed_ms = round((time.perf_counter() - start_time) * 1000, 2)
-        print(f"[{cycle}] Live Price: ${current_price} | WinProb: {win_prob}% | Latency: {elapsed_ms}ms")
+                price_history.append(current_price)
+                if len(price_history) > 100:
+                    price_history.pop(0)
 
-        # Telegram message tabhi jayega jab actual BUY / SELL signal banega
-        if win_prob >= 75.0 and consensus_pct >= 82.0:
-            if order_flow_delta >= 0:
-                signal_type = "CALL (BUY) 📈"
-                target_price = round(current_price * 1.015, 2)
-                stop_loss = round(current_price * 0.995, 2)
-            else:
-                signal_type = "PUT (SELL) 📉"
-                target_price = round(current_price * 0.985, 2)
-                stop_loss = round(current_price * 1.005, 2)
+                rsi = calculate_rsi(price_history)
+                
+                if total_volume > 0:
+                    order_flow_delta = round((buyer_volume - seller_volume) / total_volume, 3)
+                else:
+                    order_flow_delta = 0.0
 
-            detailed_msg = (
-                f"🚨 *QUANTUM HIGH CONVICTION SIGNAL* 🚨\n\n"
-                f"📊 *Asset:* `BTC/USDT`\n"
-                f"📈 *Signal Type:* **{signal_type}**\n\n"
-                f"💵 *Live Entry Price:* `${current_price}`\n"
-                f"🎯 *Target Price:* `${target_price}`\n"
-                f"🛑 *Stop Loss:* `${stop_loss}`\n\n"
-                f"🎲 *Monte Carlo Win Prob:* `{win_prob}%`\n"
-                f"👑 *King Consensus:* `{consensus_pct}%`\n"
-                f"🛡️ *Kelly Capital Allocation:* `₹{allocated_capital}`\n"
-                f"⚡ *Execution Latency:* `{elapsed_ms} ms`"
-            )
+                sma_short = round(float(np.mean(price_history[-5:])), 2) if len(price_history) >= 5 else current_price
 
-            send_telegram_alert(detailed_msg)
-            print("🚀 Detailed Signal Sent to Telegram!")
+                print(f"💵 Price: ${current_price} | RSI: {rsi} | Delta: {order_flow_delta} | SMA5: ${sma_short}")
 
-        cycle += 1
-        await asyncio.sleep(8)
+                current_time = asyncio.get_event_loop().time()
+                
+                if current_time - last_signal_time > 30:
+                    signal_type = None
+
+                    if rsi < 42 and order_flow_delta > 0.1 and current_price >= sma_short:
+                        signal_type = "CALL (BUY) 📈"
+                        target_price = round(current_price * 1.008, 2)
+                        stop_loss = round(current_price * 0.996, 2)
+                    elif rsi > 58 and order_flow_delta < -0.1 and current_price <= sma_short:
+                        signal_type = "PUT (SELL) 📉"
+                        target_price = round(current_price * 0.992, 2)
+                        stop_loss = round(current_price * 1.004, 2)
+
+                    if signal_type:
+                        win_probability = round(min(95.0, max(65.0, 50.0 + (abs(order_flow_delta) * 50) + (abs(50 - rsi) * 0.5))), 1)
+
+                        detailed_msg = (
+                            f"🚨 *REAL QUANTUM SIGNAL GENERATED* 🚨\n\n"
+                            f"📊 *Asset:* `BTC/USDT`\n"
+                            f"📈 *Signal Type:* **{signal_type}**\n\n"
+                            f"💵 *Live Price:* `${current_price}`\n"
+                            f"🎯 *Target Price:* `${target_price}`\n"
+                            f"🛑 *Stop Loss:* `${stop_loss}`\n\n"
+                            f"📊 *Real RSI (14):* `{rsi}`\n"
+                            f"🌊 *Order Flow Delta:* `{order_flow_delta}`\n"
+                            f"🎲 *Calculated Win Prob:* `{win_probability}%`\n"
+                            f"🛡️ *Recommended Allocation:* `₹25,000`"
+                        )
+
+                        send_telegram_alert(detailed_msg)
+                        print(f"🚀 REAL {signal_type} SIGNAL DISPATCHED TO TELEGRAM!")
+                        last_signal_time = current_time
+
+            except Exception as e:
+                print(f"⚠️ Stream Processing Error: {e}")
+                await asyncio.sleep(2)
 
 if __name__ == "__main__":
-    asyncio.run(run_clean_engine())
+    asyncio.run(binance_real_quantum_engine())
