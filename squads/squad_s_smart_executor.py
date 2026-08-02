@@ -1,27 +1,27 @@
 import time
 from core.event_bus import event_bus
+from core.database import save_trade_db
 
 class SquadSSmartExecutor:
-    """Squad S: Paper Trading Execution & Real-Time PnL Tracker"""
+    """Squad S: Paper Trading Execution & Database Persistence"""
     def __init__(self, initial_capital=10000.0):
         self.capital = initial_capital
         self.balance = initial_capital
         self.positions = []
         self.closed_trades = []
         
-        # Subscribe to Level-2 Stream for price tick updates
         event_bus.subscribe("level2_depth_update", self.on_price_update)
 
     def execute_paper_trade(self, signal_data):
-        # Allow max 3 open positions at a time
         if len(self.positions) >= 3:
-            print("⚠️ [SQUAD S] Max open positions reached. Skipping trade execution.")
+            print("⚠️ [SQUAD S] Max open positions reached.")
             return
 
-        trade_size = 1000.0  # $1,000 USDT per trade
+        trade_size = 1000.0
+        trade_id = int(time.time())
         
         position = {
-            "id": int(time.time()),
+            "id": trade_id,
             "symbol": signal_data['symbol'],
             "type": signal_data['type'],
             "entry_price": signal_data['entry'],
@@ -32,12 +32,17 @@ class SquadSSmartExecutor:
         }
 
         self.positions.append(position)
+        # Save to SQLite DB
+        save_trade_db(
+            signal_data['symbol'], signal_data['type'], 
+            signal_data['entry'], signal_data['stop_loss'], 
+            signal_data['take_profit'], status="OPEN"
+        )
         print(f"📈 [SQUAD S PAPER TRADE OPENED] {position['type']} {position['symbol']} @ ${position['entry_price']}")
 
     def on_price_update(self, data):
         current_price = data['top_ask'] if data['imbalance'] > 0 else data['top_bid']
         
-        # Check active positions for SL/TP hits
         remaining_positions = []
         for pos in self.positions:
             pnl = 0.0
@@ -96,5 +101,4 @@ class SquadSSmartExecutor:
             "active_positions": len(self.positions)
         }
 
-# Global Smart Executor Instance
 smart_executor = SquadSSmartExecutor()
