@@ -1,123 +1,51 @@
-import asyncio
-import json
 import os
-import requests
-import numpy as np
-import websockets
-from http.server import HTTPServer, BaseHTTPRequestHandler
+import sys
+import time
 import threading
-from dotenv import load_dotenv
+from flask import Flask, jsonify
 
-load_dotenv()
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8848903231:AAEIg7FyiM66utC5zljqR14TzqRjuRcAgXs")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "1330836270")
+from core.event_bus import event_bus
+from core.level2_engine import BinanceLevel2Engine
 
-# 🌐 Render Cloud Health-Check Web Server
-class HealthCheckHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header('Content-type', 'text/plain')
-        self.end_headers()
-        self.wfile.write(b"OK - Quantum Engine Active")
+app = Flask(__name__)
+l2_engine = BinanceLevel2Engine("btcusdt")
 
-    def log_message(self, format, *args):
-        return
+latest_l2_snapshot = {}
 
-def run_health_server():
-    port = int(os.getenv("PORT", 8000))
-    server = HTTPServer(('0.0.0.0', port), HealthCheckHandler)
-    print(f"🌐 Render Web Port Active on Port: {port}")
-    server.serve_forever()
+def l2_data_listener(data):
+    global latest_l2_snapshot
+    latest_l2_snapshot = data
+    
+    imb = data['imbalance']
+    if imb > 0.35:
+        print(f"🔥 [SQUAD M - WHALE BUY] Imbalance: +{imb} | Bid Vol: {data['bid_vol']} BTC")
+    elif imb < -0.35:
+        print(f"🚨 [SQUAD M - WHALE SELL] Imbalance: {imb} | Ask Vol: {data['ask_vol']} BTC")
 
-threading.Thread(target=run_health_server, daemon=True).start()
+event_bus.subscribe("level2_depth_update", l2_data_listener)
 
-# ⚡ Quantum Engine Core
-def send_telegram_alert(message: str):
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"}
-    try:
-        requests.post(url, json=payload, timeout=5)
-    except Exception as e:
-        print(f"⚠️ Telegram Error: {e}")
+@app.route('/')
+@app.route('/health')
+def health_check():
+    return jsonify({
+        "status": "online",
+        "system": "Quantum Bot - Phase 1 Engine",
+        "event_bus": "Active (High-Speed)",
+        "level2_stream": "Connected (100ms Feed)",
+        "latest_orderbook_snapshot": latest_l2_snapshot
+    }), 200
 
-def calculate_rsi(prices, period=14):
-    if len(prices) < period + 1:
-        return 50.0
-    deltas = np.diff(prices)
-    gains = np.where(deltas > 0, deltas, 0)
-    losses = np.where(deltas < 0, -deltas, 0)
-    avg_gain = np.mean(gains[-period:])
-    avg_loss = np.mean(losses[-period:])
-    if avg_loss == 0:
-        return 100.0
-    rs = avg_gain / avg_loss
-    return round(float(100.0 - (100.0 / (1.0 + rs))), 2)
-
-async def binance_real_quantum_engine():
-    url = "wss://stream.binance.com:9443/ws/btcusdt@kline_1m"
-    price_history = []
-    last_signal_time = 0
-
-    print("=========================================================")
-    print("⚡ REAL QUANTUM ENGINE ONLINE (BINANCE WEBSOCKET ACTIVE)")
-    print("=========================================================")
-
-    async with websockets.connect(url) as ws:
-        while True:
-            try:
-                response = await ws.recv()
-                data = json.loads(response)
-                kline = data.get('k', {})
-                current_price = float(kline.get('c', 0))
-                total_volume = float(kline.get('v', 0))
-                buyer_volume = float(kline.get('V', 0))
-                seller_volume = max(0.0, total_volume - buyer_volume)
-
-                if current_price == 0:
-                    continue
-
-                price_history.append(current_price)
-                if len(price_history) > 100:
-                    price_history.pop(0)
-
-                rsi = calculate_rsi(price_history)
-                order_flow_delta = round((buyer_volume - seller_volume) / total_volume, 3) if total_volume > 0 else 0.0
-                sma_short = round(float(np.mean(price_history[-5:])), 2) if len(price_history) >= 5 else current_price
-
-                current_time = asyncio.get_event_loop().time()
-                if current_time - last_signal_time > 30:
-                    signal_type = None
-
-                    if rsi < 42 and order_flow_delta > 0.1 and current_price >= sma_short:
-                        signal_type = "CALL (BUY) 📈"
-                        target_price = round(current_price * 1.008, 2)
-                        stop_loss = round(current_price * 0.996, 2)
-                    elif rsi > 58 and order_flow_delta < -0.1 and current_price <= sma_short:
-                        signal_type = "PUT (SELL) 📉"
-                        target_price = round(current_price * 0.992, 2)
-                        stop_loss = round(current_price * 1.004, 2)
-
-                    if signal_type:
-                        win_prob = round(min(95.0, max(65.0, 50.0 + (abs(order_flow_delta) * 50) + (abs(50 - rsi) * 0.5))), 1)
-                        msg = (
-                            f"🚨 *REAL QUANTUM SIGNAL GENERATED* 🚨\n\n"
-                            f"📊 *Asset:* `BTC/USDT`\n"
-                            f"📈 *Signal Type:* **{signal_type}**\n\n"
-                            f"💵 *Live Price:* `${current_price}`\n"
-                            f"🎯 *Target Price:* `${target_price}`\n"
-                            f"🛑 *Stop Loss:* `${stop_loss}`\n\n"
-                            f"📊 *Real RSI (14):* `{rsi}`\n"
-                            f"🌊 *Order Flow Delta:* `{order_flow_delta}`\n"
-                            f"🎲 *Calculated Win Prob:* `{win_prob}%`\n"
-                            f"🛡️ *Recommended Allocation:* `₹25,000`"
-                        )
-                        send_telegram_alert(msg)
-                        print(f"🚀 REAL {signal_type} SIGNAL DISPATCHED TO TELEGRAM!")
-                        last_signal_time = current_time
-
-            except Exception as e:
-                await asyncio.sleep(2)
+def start_phase1_engine():
+    print("🚀 [QUANTUM ENGINE] Starting Phase 1 High-Speed Data Architecture...")
+    time.sleep(2)
+    l2_engine.start()
 
 if __name__ == "__main__":
-    asyncio.run(binance_real_quantum_engine())
+    engine_thread = threading.Thread(target=start_phase1_engine, daemon=True)
+    engine_thread.start()
+
+    port = int(os.environ.get("PORT", 10000))
+    print(f"🌐 [RENDER SERVER] Listening on port {port}...")
+    app.run(host="0.0.0.0", port=port)
