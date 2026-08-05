@@ -15,27 +15,29 @@ class RedisOrderQueue:
                 port=self.port,
                 password=self.password,
                 decode_responses=True,
-                socket_timeout=3
+                socket_timeout=2
             )
             self.client.ping()
             self.active = True
-            print("⚡ [REDIS QUEUE] High-Speed In-Memory Bus Connected!")
+            print("⚡ [REDIS QUEUE] Connected to Redis Server successfully!")
         except Exception as e:
-            print(f"⚠️ [REDIS WARNING] Connection failed ({e}). Falling back to In-Memory Local Bus.")
+            print(f"⚠️ [REDIS] Could not connect to Redis server ({e}).")
+            print("🔄 [FALLBACK] Switched to local in-memory Queue mode.")
             self.active = False
             self.local_queue = []
 
     def push_order(self, order_data):
-        """Push Order Signal to Queue (Producer)"""
+        """Push an order signal into the queue (Producer)"""
         payload = json.dumps(order_data)
         if self.active:
             self.client.rpush("quantum_order_queue", payload)
-            print(f"📥 [REDIS QUEUE] Pushed Order: {order_data['type']} {order_data['symbol']}")
+            print(f"📥 [REDIS QUEUE] Pushed Order: {order_data['side']} {order_data['symbol']}")
         else:
             self.local_queue.append(order_data)
+            print(f"📥 [LOCAL QUEUE] Pushed Order: {order_data['side']} {order_data['symbol']}")
 
     def pop_order(self, timeout=1):
-        """Pop Next Order Signal for Execution (Consumer)"""
+        """Pop the next order signal for execution (Consumer)"""
         if self.active:
             result = self.client.blpop("quantum_order_queue", timeout=timeout)
             if result:
