@@ -6,13 +6,13 @@ from flask import Flask, jsonify, render_template_string
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
-from core.event_bus import event_bus
-from core.level2_engine import BinanceMultiLevel2Engine
-from core.state import system_state
-import squads.squad_t_master_commander
-from squads.squad_s_smart_executor import smart_executor
-from squads.squad_c_command_center import command_center
-from squads.squad_m_monitor import system_monitor
+from src.core.event_bus import event_bus
+from src.core.level2_engine import BinanceMultiLevel2Engine
+from src.core.state import system_state
+import src.strategies.master_commander
+from src.execution.smart_executor import smart_executor
+from src.interfaces.telegram_bot import command_center
+from src.core.monitor import system_monitor
 
 app = Flask(__name__)
 l2_engine = BinanceMultiLevel2Engine(["btcusdt", "ethusdt", "solusdt"])
@@ -30,14 +30,13 @@ HTML_DASHBOARD = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Quantum Bot - Enterprise Terminal</title>
+    <title>Quantum Engine - Enterprise Terminal</title>
     <meta http-equiv="refresh" content="2">
     <style>
         body { background: #0a0e17; color: #d1d5db; font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 20px; }
         .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1f293d; padding-bottom: 15px; }
         .title { color: #00f2fe; font-size: 24px; font-weight: bold; }
         .status-badge { background: #059669; color: #fff; padding: 5px 12px; border-radius: 20px; font-size: 14px; }
-        .status-paused { background: #dc2626; color: #fff; padding: 5px 12px; border-radius: 20px; font-size: 14px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; }
         .card { background: #111827; border: 1px solid #1f293d; border-radius: 10px; padding: 15px; }
         .card-title { font-size: 12px; color: #9ca3af; text-transform: uppercase; }
@@ -53,17 +52,13 @@ HTML_DASHBOARD = """
 </head>
 <body>
     <div class="header">
-        <div class="title">⚡ QUANTUM BOT | Enterprise Swarm</div>
-        {% if is_paused %}
-        <div class="status-paused">SYSTEM PAUSED 🛑</div>
-        {% else %}
-        <div class="status-badge">AUTO-HEALING ACTIVE 🟢</div>
-        {% endif %}
+        <div class="title">⚡ QUANTUM ENGINE | Enterprise Platform</div>
+        <div class="status-badge">ENTERPRISE SYSTEM ACTIVE 🟢</div>
     </div>
 
     <div class="grid">
         <div class="card">
-            <div class="card-title">Current Balance</div>
+            <div class="card-title">Balance</div>
             <div class="card-value cyan">{{ perf.current_balance }}</div>
         </div>
         <div class="card">
@@ -75,11 +70,7 @@ HTML_DASHBOARD = """
             <div class="card-value green">{{ perf.win_rate }}</div>
         </div>
         <div class="card">
-            <div class="card-title">Active Positions</div>
-            <div class="card-value cyan">{{ perf.active_positions }}</div>
-        </div>
-        <div class="card">
-            <div class="card-title">Stream Latency</div>
+            <div class="card-title">Latency</div>
             <div class="card-value green">{{ latency }} ms</div>
         </div>
     </div>
@@ -116,7 +107,6 @@ def dashboard():
         HTML_DASHBOARD, 
         perf=perf, 
         snaps=multi_snapshots, 
-        is_paused=system_state.is_paused,
         latency=system_monitor.latency_ms
     )
 
@@ -124,21 +114,20 @@ def dashboard():
 def health_check():
     return jsonify({
         "status": "online",
-        "paused": system_state.is_paused,
-        "latency_ms": system_monitor.latency_ms,
+        "system": "Quantum Trading Engine Enterprise",
         "performance": smart_executor.get_performance_summary(),
         "snaps": multi_snapshots
     }), 200
 
-def start_phase8_engine():
-    print("🚀 [QUANTUM BOT] Launching Phase 8 Enterprise Architecture...")
+def start_enterprise_engine():
+    print("🚀 [ENTERPRISE ENGINE] Launching Production Architecture...")
     command_center.start_polling()
     system_monitor.start_keep_alive()
     time.sleep(1)
     l2_engine.start()
 
 if __name__ == "__main__":
-    engine_thread = threading.Thread(target=start_phase8_engine, daemon=True)
+    engine_thread = threading.Thread(target=start_enterprise_engine, daemon=True)
     engine_thread.start()
 
     port = int(os.environ.get("PORT", 10000))
