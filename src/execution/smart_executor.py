@@ -1,9 +1,9 @@
 import time
-from core.event_bus import event_bus
-from core.database import save_trade_db, update_trade_exit_db
+from src.core.event_bus import event_bus
+from src.core.database import save_trade_db, update_trade_exit_db
 
 class SquadSSmartExecutor:
-    """Squad S: Paper Trading with Dynamic Dynamic Compound Sizing"""
+    """Squad S: Paper Trading with Dynamic Compound Sizing"""
     def __init__(self, initial_capital=10000.0):
         self.capital = initial_capital
         self.balance = initial_capital
@@ -14,10 +14,9 @@ class SquadSSmartExecutor:
 
     def execute_paper_trade(self, signal_data):
         if len(self.positions) >= 5:
-            print("⚠️ [SQUAD S] Max open multi-asset positions reached.")
+            print("⚠️ [SMART EXECUTOR] Max open positions reached.")
             return
 
-        # Dynamic Risk Sizing: Allocate 10% of total balance per trade
         trade_size = round(self.balance * 0.10, 2)
         trade_id = int(time.time() * 1000)
         
@@ -38,7 +37,7 @@ class SquadSSmartExecutor:
             signal_data['entry'], signal_data['stop_loss'], 
             signal_data['take_profit'], status="OPEN"
         )
-        print(f"📈 [SQUAD S DYNAMIC TRADE] {position['type']} {position['symbol']} | Size: ${trade_size} USDT @ ${position['entry_price']}")
+        print(f"📈 [DYNAMIC TRADE] {position['type']} {position['symbol']} | Size: ${trade_size} USDT @ ${position['entry_price']}")
 
     def on_price_update(self, data):
         symbol = data['symbol']
@@ -94,7 +93,7 @@ class SquadSSmartExecutor:
                 }
                 self.closed_trades.append(closed_record)
                 update_trade_exit_db(pos['id'], current_price, round(pnl, 2), exit_reason)
-                print(f"🎯 [SQUAD S TRADE CLOSED] {symbol} | {exit_reason} | PnL: ${round(pnl, 2)}")
+                print(f"🎯 [TRADE CLOSED] {symbol} | {exit_reason} | PnL: ${round(pnl, 2)}")
             else:
                 remaining_positions.append(pos)
 
